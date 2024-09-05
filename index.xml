@@ -7,7 +7,40 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
-        <lastBuildDate>Mon, 02 Sep 2024 01:39:37 +0800</lastBuildDate><atom:link href="https://mqdfei.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 Sep 2024 01:39:37 +0800</lastBuildDate><atom:link href="https://mqdfei.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【Hugo】Hugo &#43; Github 免费部署自己的博客</title>
+        <link>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Thu, 05 Sep 2024 01:39:37 +0800</pubDate>
+        
+        <guid>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;h3 id=&#34;1-环境准备&#34;&gt;1 环境准备
+&lt;/h3&gt;&lt;h2 id=&#34;11-git下载&#34;&gt;1.1 Git下载
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;前往【[Git官网](&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Git (git-scm.com)&lt;/a&gt;)】，下载安装程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改安装位置后，默认安装即可&lt;/p&gt;
+&lt;p&gt;！&lt;a class=&#34;link&#34; href=&#34;image/git%e4%b8%8b%e8%bd%bd.png&#34; &gt;git下载&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;12-hugo下载&#34;&gt;1.2 Hugo下载
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/tags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Github Tags&lt;/a&gt;】，选择对应版本下载并解压。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows下载版本：&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;！&lt;a class=&#34;link&#34; href=&#34;image/hugo%e4%b8%8b%e8%bd%bd.png&#34; &gt;hugo下载&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-搭建博客&#34;&gt;2 搭建博客
+&lt;/h3&gt;&lt;h2 id=&#34;21-创建博客&#34;&gt;2.1 创建博客
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>MyStudy</title>
         <link>https://mqdfei.top/p/mystudy/</link>
         <pubDate>Mon, 02 Sep 2024 01:39:37 +0800</pubDate>
