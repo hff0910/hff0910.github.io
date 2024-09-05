@@ -22,7 +22,20 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;修改安装位置后，默认安装即可&lt;/p&gt;
-&lt;p&gt;！&lt;a class=&#34;link&#34; href=&#34;image/git%e4%b8%8b%e8%bd%bd.png&#34; &gt;git下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD_hu1911109176439653008.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD_hu11669270489309269123.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;git下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;248&#34;
+		data-flex-basis=&#34;596px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;12-hugo下载&#34;&gt;1.2 Hugo下载
@@ -33,7 +46,20 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Windows下载版本：&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;！&lt;a class=&#34;link&#34; href=&#34;image/hugo%e4%b8%8b%e8%bd%bd.png&#34; &gt;hugo下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/hugo%E4%B8%8B%E8%BD%BD.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;226&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/hugo%E4%B8%8B%E8%BD%BD_hu14685765595908022398.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/hugo%E4%B8%8B%E8%BD%BD_hu84203925977188827.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hugo下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;453&#34;
+		data-flex-basis=&#34;1087px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2-搭建博客&#34;&gt;2 搭建博客
