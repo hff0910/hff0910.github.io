@@ -13,9 +13,9 @@
         <pubDate>Thu, 05 Sep 2024 01:39:37 +0800</pubDate>
         
         <guid>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;h1 id=&#34;环境准备&#34;&gt;环境准备
-&lt;/h1&gt;&lt;h2 id=&#34;git下载&#34;&gt;Git下载
-&lt;/h2&gt;&lt;ul&gt;
+        <description>&lt;h2 id=&#34;环境准备&#34;&gt;环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;git下载&#34;&gt;Git下载
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【[Git官网](&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Git (git-scm.com)&lt;/a&gt;)】，下载安装程序&lt;/p&gt;
@@ -38,8 +38,8 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;hugo下载&#34;&gt;Hugo下载
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h3 id=&#34;hugo下载&#34;&gt;Hugo下载
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/tags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Github Tags&lt;/a&gt;】，选择对应版本下载并解压。&lt;/p&gt;
@@ -62,15 +62,15 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;搭建博客&#34;&gt;搭建博客
-&lt;/h1&gt;&lt;h2 id=&#34;创建博客&#34;&gt;创建博客
-&lt;/h2&gt;&lt;h2 id=&#34;配置主题&#34;&gt;配置主题
-&lt;/h2&gt;&lt;h1 id=&#34;github部署&#34;&gt;Github部署
-&lt;/h1&gt;&lt;h2 id=&#34;常规部署&#34;&gt;常规部署
-&lt;/h2&gt;&lt;h2 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
-&lt;/h2&gt;&lt;h1 id=&#34;待完成部分&#34;&gt;待完成部分
-&lt;/h1&gt;&lt;h2 id=&#34;博客外观功能&#34;&gt;博客外观、功能
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&#34;搭建博客&#34;&gt;搭建博客
+&lt;/h2&gt;&lt;h3 id=&#34;创建博客&#34;&gt;创建博客
+&lt;/h3&gt;&lt;h3 id=&#34;配置主题&#34;&gt;配置主题
+&lt;/h3&gt;&lt;h2 id=&#34;github部署&#34;&gt;Github部署
+&lt;/h2&gt;&lt;h3 id=&#34;常规部署&#34;&gt;常规部署
+&lt;/h3&gt;&lt;h3 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
+&lt;/h3&gt;&lt;h2 id=&#34;待完成部分&#34;&gt;待完成部分
+&lt;/h2&gt;&lt;h3 id=&#34;博客外观功能&#34;&gt;博客外观、功能
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;访客统计和评论&lt;/li&gt;
 &lt;li&gt;加音乐&lt;/li&gt;
 &lt;li&gt;加social&lt;/li&gt;
@@ -83,8 +83,8 @@
 &lt;li&gt;tudolist卡片&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;文章&#34;&gt;文章
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h3 id=&#34;文章&#34;&gt;文章
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;添加文章的最近编辑时间和创建时间（有没有方法自动获取）&lt;/li&gt;
 &lt;li&gt;外部看文章的图片和简介&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
