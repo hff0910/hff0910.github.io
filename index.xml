@@ -13,8 +13,8 @@
         <pubDate>Thu, 05 Sep 2024 01:39:37 +0800</pubDate>
         
         <guid>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;h1 id=&#34;1-环境准备&#34;&gt;1 环境准备
-&lt;/h1&gt;&lt;h3 id=&#34;11-git下载&#34;&gt;1.1 Git下载
+        <description>&lt;h2 id=&#34;1-环境准备&#34;&gt;1 环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;11-git下载&#34;&gt;1.1 Git下载
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【[Git官网](&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -62,14 +62,14 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;2-搭建博客&#34;&gt;2 搭建博客
-&lt;/h1&gt;&lt;h3 id=&#34;21-创建博客&#34;&gt;2.1 创建博客
+&lt;h2 id=&#34;2-搭建博客&#34;&gt;2 搭建博客
+&lt;/h2&gt;&lt;h3 id=&#34;21-创建博客&#34;&gt;2.1 创建博客
 &lt;/h3&gt;&lt;h3 id=&#34;22-配置主题&#34;&gt;2.2 配置主题
-&lt;/h3&gt;&lt;h1 id=&#34;3-github部署&#34;&gt;3 Github部署
-&lt;/h1&gt;&lt;h3 id=&#34;31-常规部署&#34;&gt;3.1 常规部署
+&lt;/h3&gt;&lt;h2 id=&#34;3-github部署&#34;&gt;3 Github部署
+&lt;/h2&gt;&lt;h3 id=&#34;31-常规部署&#34;&gt;3.1 常规部署
 &lt;/h3&gt;&lt;h3 id=&#34;32-github-action自动部署&#34;&gt;3.2 Github Action自动部署
-&lt;/h3&gt;&lt;h1 id=&#34;4-待完成部分&#34;&gt;4 待完成部分
-&lt;/h1&gt;&lt;h3 id=&#34;41-博客外观功能&#34;&gt;4.1 博客外观、功能
+&lt;/h3&gt;&lt;h2 id=&#34;4-待完成部分&#34;&gt;4 待完成部分
+&lt;/h2&gt;&lt;h3 id=&#34;41-博客外观功能&#34;&gt;4.1 博客外观、功能
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;访客统计和评论&lt;/li&gt;
 &lt;li&gt;加音乐&lt;/li&gt;
