@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on 林梦飞</title>
+        <link>https://mqdfei.top/categories/hugo/</link>
+        <description>Recent content in Hugo on 林梦飞</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>林梦飞-mqdfei</copyright>
+        <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/categories/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【Hugo】Hugo &#43; Github 免费部署自己的博客</title>
+        <link>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/fengmian.jpg" alt="Featured image of post 【Hugo】Hugo &#43; Github 免费部署自己的博客" /&gt;&lt;h2 id=&#34;1环境准备&#34;&gt;1环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;11git下载&#34;&gt;1.1Git下载
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Git官网&lt;/a&gt;】，下载安装程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改安装位置后，默认安装即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD_hu1911109176439653008.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/git%E4%B8%8B%E8%BD%BD_hu11669270489309269123.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;git下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;248&#34;
+		data-flex-basis=&#34;596px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12hugo下载&#34;&gt;1.2Hugo下载
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/tags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Github Tags&lt;/a&gt;】，选择对应版本下载并解压。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows下载版本：&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/hugo%E4%B8%8B%E8%BD%BD.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;226&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/hugo%E4%B8%8B%E8%BD%BD_hu14685765595908022398.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/hugo%E4%B8%8B%E8%BD%BD_hu84203925977188827.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hugo下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;453&#34;
+		data-flex-basis=&#34;1087px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2搭建博客&#34;&gt;2搭建博客
+&lt;/h2&gt;&lt;h3 id=&#34;21创建博客&#34;&gt;2.1创建博客
+&lt;/h3&gt;&lt;h3 id=&#34;22配置主题&#34;&gt;2.2配置主题
+&lt;/h3&gt;&lt;h2 id=&#34;3github部署&#34;&gt;3Github部署
+&lt;/h2&gt;&lt;h3 id=&#34;31常规部署&#34;&gt;3.1常规部署
+&lt;/h3&gt;&lt;h3 id=&#34;32github-action自动部署&#34;&gt;3.2Github Action自动部署
+&lt;/h3&gt;&lt;h2 id=&#34;4待完成部分&#34;&gt;4待完成部分
+&lt;/h2&gt;&lt;h3 id=&#34;41博客外观功能&#34;&gt;4.1博客外观、功能
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;访客统计和评论&lt;/li&gt;
+&lt;li&gt;加音乐&lt;/li&gt;
+&lt;li&gt;加social&lt;/li&gt;
+&lt;li&gt;导航栏自定义&lt;/li&gt;
+&lt;li&gt;回到顶部按钮&lt;/li&gt;
+&lt;li&gt;加友链&lt;/li&gt;
+&lt;li&gt;时间气温卡片&lt;/li&gt;
+&lt;li&gt;赞赏功能&lt;/li&gt;
+&lt;li&gt;置顶文章&lt;/li&gt;
+&lt;li&gt;tudolist卡片&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42文章&#34;&gt;4.2文章
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;添加文章的最近编辑时间和创建时间（有没有方法自动获取）&lt;/li&gt;
+&lt;li&gt;外部看文章的图片和简介&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
