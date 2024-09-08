@@ -93,21 +93,18 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;访客统计和评论&lt;/li&gt;
 &lt;li&gt;加音乐&lt;/li&gt;
-&lt;li&gt;加social&lt;/li&gt;
-&lt;li&gt;导航栏自定义&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;加social&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;导航栏自定义&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;回到顶部按钮&lt;/li&gt;
-&lt;li&gt;加友链&lt;/li&gt;
-&lt;li&gt;时间气温卡片&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;加友链&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;赞赏功能&lt;/li&gt;
 &lt;li&gt;置顶文章&lt;/li&gt;
 &lt;li&gt;tudolist卡片&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;42文章&#34;&gt;4.2文章
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;添加文章的最近编辑时间和创建时间（有没有方法自动获取）&lt;/li&gt;
-&lt;li&gt;外部看文章的图片和简介&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;添加文章的最近编辑时间和创建时间（有没有方法自动获取）&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;外部看文章的图片和简介&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
