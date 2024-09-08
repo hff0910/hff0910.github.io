@@ -16,20 +16,13 @@
         <description></description>
         </item>
         <item>
-        <title>友链</title>
-        <link>https://mqdfei.top/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/archives/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>关于</title>
         <link>https://mqdfei.top/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;###这是我的Blog&lt;/p&gt;
+&lt;p&gt;使用hugo+github部署的，用来输出所学所想&lt;/p&gt;
 </description>
         </item>
         <item>
