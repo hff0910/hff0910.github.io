@@ -7,24 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
-        <lastBuildDate>Mon, 02 Sep 2024 01:39:37 +0800</lastBuildDate><atom:link href="https://mqdfei.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>MyStudy</title>
-        <link>https://mqdfei.top/p/mystudy/</link>
-        <pubDate>Mon, 02 Sep 2024 01:39:37 +0800</pubDate>
-        
-        <guid>https://mqdfei.top/p/mystudy/</guid>
-        <description>&lt;h3 id=&#34;学习blog&#34;&gt;学习blog
-&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;莱特雷&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】Hugo &#43; Github 免费部署自己的博客</title>
         <link>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/fengmian.jpg" alt="Featured image of post 【Hugo】Hugo &#43; Github 免费部署自己的博客" /&gt;&lt;p&gt;&amp;lsquo;加入视频&amp;rsquo;
+        <description>&lt;img src="https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/fengmian.jpg" alt="Featured image of post 【Hugo】Hugo &#43; Github 免费部署自己的博客" /&gt;&lt;p&gt;&lt;strong&gt;参考视频&lt;/strong&gt;
 
 
 
@@ -121,6 +110,15 @@
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+        </item>
+        <item>
+        <title>Template</title>
+        <link>https://mqdfei.top/p/template/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://mqdfei.top/p/template/</guid>
+        <description>&lt;img src="https://mqdfei.top/p/template/image/liu.jpg" alt="Featured image of post Template" /&gt;&lt;h3 id=&#34;累了就休息休息完继续&#34;&gt;累了就休息，休息完继续
+&lt;/h3&gt;</description>
         </item>
         
     </channel>
