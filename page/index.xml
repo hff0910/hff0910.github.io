@@ -16,13 +16,85 @@
         <description></description>
         </item>
         <item>
-        <title>关于</title>
-        <link>https://mqdfei.top/%E5%85%B3%E4%BA%8E/</link>
+        <title>更新计划</title>
+        <link>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;###这是我的Blog&lt;/p&gt;
-&lt;p&gt;使用hugo+github部署的，用来输出所学所想&lt;/p&gt;
+        <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
+        <description>&lt;h3 id=&#34;文章相关&#34;&gt;文章相关
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;完成时间&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将&lt;strong&gt;文章更新时间&lt;/strong&gt;、&lt;strong&gt;标签&lt;/strong&gt;提到封面&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将&lt;strong&gt;目录中的自带序号&lt;/strong&gt;去掉&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;增加&lt;strong&gt;置顶文章&lt;/strong&gt;功能&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;功能相关&#34;&gt;功能相关
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;完成时间&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;实现音乐播放功能&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;完善技术链接需要的网址、social按钮&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;增加&lt;strong&gt;评论&lt;/strong&gt;、&lt;strong&gt;赞赏&lt;/strong&gt;功能&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;增加&lt;strong&gt;回顶部&lt;/strong&gt;按钮&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修改&lt;strong&gt;左侧边栏&lt;/strong&gt;图标样式&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;在&lt;strong&gt;blog\myblog\themes&lt;br /&gt;\hugo-theme-stack\assets\icons&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         </item>
         <item>
