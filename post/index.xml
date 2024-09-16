@@ -72,25 +72,7 @@
 &lt;li&gt;
 &lt;p&gt;插入视频&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;格式：
-
-
-
-
-
-    
-
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1bovfeaEtQ&#34;
-            scrolling=&#34;no&#34;
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34;
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
+&lt;p&gt;格式：{{&amp;lt; bilibili BV1bovfeaEtQ 1 &amp;gt;}}&lt;/p&gt;
 &lt;p&gt;以Bilibili为例。&lt;/p&gt;
 &lt;p&gt;其中&lt;strong&gt;BV1bovfeaEtQ&lt;/strong&gt;为视频的bv号，数字&lt;strong&gt;1&lt;/strong&gt;当视频为多p视频时选择用&lt;/p&gt;
 &lt;/blockquote&gt;
