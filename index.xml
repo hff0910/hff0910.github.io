@@ -208,7 +208,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;敲出命令&lt;code&gt;hugo new site xxxx&lt;/code&gt;创建hugo文件&lt;/p&gt;
+&lt;p&gt;敲出命令&lt;code&gt;hugo new site xxx&lt;/code&gt;创建hugo文件&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.png&#34;
 	width=&#34;1464&#34;
 	height=&#34;326&#34;
@@ -289,7 +289,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;将&lt;code&gt;exampleSite&lt;/code&gt;样例数据中的 &lt;strong&gt;Content&lt;/strong&gt; 和 &lt;strong&gt;hugo.yaml&lt;/strong&gt; 复制到主文件夹中，并删掉&lt;code&gt;hugo.toml&lt;/code&gt;和&lt;code&gt;content/post/rich-content&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将&lt;code&gt;exampleSite&lt;/code&gt;样例数据中的 &lt;strong&gt;Content&lt;/strong&gt; 和 &lt;strong&gt;hugo.yaml&lt;/strong&gt; 复制到主文件夹中，并删掉主文件夹下的&lt;code&gt;hugo.toml&lt;/code&gt;和&lt;code&gt;content/post/rich-content&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.png&#34;
 	width=&#34;832&#34;
 	height=&#34;458&#34;
@@ -371,7 +371,13 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;23主题个性化&#34;&gt;2.3主题个性化
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;待添加&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;**【已完成】**基础设置（设置中文、基础介绍、网站图标、）&lt;/li&gt;
+&lt;li&gt;**【待完成】**菜单栏&lt;/li&gt;
+&lt;li&gt;**【待完成】**统计功能&lt;/li&gt;
+&lt;li&gt;**【待完成】**评论功能&lt;/li&gt;
+&lt;li&gt;**【待完成】**文章功能完善&lt;/li&gt;
+&lt;li&gt;**【待完成】**音乐&lt;/li&gt;
+&lt;li&gt;**【待完成】**友链&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;3github部署&#34;&gt;3Github部署
 &lt;/h2&gt;&lt;h3 id=&#34;31常规部署&#34;&gt;3.1常规部署
