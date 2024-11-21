@@ -14,6 +14,83 @@
         
         <guid>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
         <description>&lt;img src="https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg" alt="Featured image of post 【Hugo】主题美化" /&gt;&lt;p&gt;博客的基础设置，主要以hugo.yaml文件为主&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以下所有修改操作请养成备份的习惯&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;主页功能&#34;&gt;主页功能
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;中英文&lt;/li&gt;
+&lt;li&gt;头像、站名、简介&lt;/li&gt;
+&lt;li&gt;社交链接&lt;/li&gt;
+&lt;li&gt;网站图标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;菜单栏&#34;&gt;菜单栏
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;新建一个菜单选项，如&lt;code&gt;友链&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;评论功能&#34;&gt;评论功能
+&lt;/h3&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
+&lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cwaline.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;文章功能完善&#34;&gt;文章功能完善
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;**【待完成】**回到顶部按钮&lt;/li&gt;
+&lt;li&gt;**【待完成】**目录去序列号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试代码区&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;统计功能unami&#34;&gt;统计功能（unami）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unami&lt;/a&gt;官网在这里&lt;/p&gt;
+&lt;p&gt;注册并添加自己的域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;将下面的代码复制下来&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;找到&lt;code&gt;layouts/partials/head/custom.html&lt;/code&gt;文件复制代码即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后就完成啦，可以看到访问量和用户来源地等等&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我还不知道怎么把这个数据应用到自己的博客上，只能登录unami的网站看访问数据。&lt;/p&gt;
 </description>
         </item>
         <item>
