@@ -369,16 +369,6 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;23主题个性化&#34;&gt;2.3主题个性化
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;**【已完成】**基础设置（设置中文、基础介绍、网站图标、）&lt;/li&gt;
-&lt;li&gt;**【待完成】**菜单栏&lt;/li&gt;
-&lt;li&gt;**【待完成】**统计功能&lt;/li&gt;
-&lt;li&gt;**【待完成】**评论功能&lt;/li&gt;
-&lt;li&gt;**【待完成】**文章功能完善&lt;/li&gt;
-&lt;li&gt;**【待完成】**音乐&lt;/li&gt;
-&lt;li&gt;**【待完成】**友链&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;3github部署&#34;&gt;3Github部署
 &lt;/h2&gt;&lt;h3 id=&#34;31常规部署&#34;&gt;3.1常规部署
 &lt;/h3&gt;&lt;ul&gt;
@@ -657,25 +647,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;4待完成部分&#34;&gt;4待完成部分
-&lt;/h2&gt;&lt;h3 id=&#34;41博客外观功能&#34;&gt;4.1博客外观、功能
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;访客统计和评论&lt;/li&gt;
-&lt;li&gt;加音乐&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;加social&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;导航栏自定义&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;回到顶部按钮&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;加友链&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;赞赏功能&lt;/li&gt;
-&lt;li&gt;置顶文章&lt;/li&gt;
-&lt;li&gt;tudolist卡片&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;42文章&#34;&gt;4.2文章
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;del&gt;添加文章的最近编辑时间和创建时间（有没有方法自动获取）&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;外部看文章的图片和简介&lt;/del&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;声明&#34;&gt;声明
+&lt;/div&gt;&lt;h2 id=&#34;声明&#34;&gt;声明
 &lt;/h2&gt;&lt;p&gt;本文章借鉴&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%e5%85%8d%e8%b4%b9%e9%83%a8%e7%bd%b2%e8%87%aa%e5%b7%b1%e7%9a%84%e5%8d%9a%e5%ae%a2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;letere的文章&lt;/a&gt;，顶部有原作者Bilibili视频&lt;/p&gt;
 </description>
