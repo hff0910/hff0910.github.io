@@ -29,17 +29,21 @@
 &lt;h3 id=&#34;评论功能&#34;&gt;评论功能
 &lt;/h3&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
 &lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cwaline.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png&#34;
+	width=&#34;876&#34;
+	height=&#34;219&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu7210442258695054659.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu4686590028148108929.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;400&#34;
+		data-flex-basis=&#34;960px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;文章功能完善&#34;&gt;文章功能完善
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;**待完成 **回到顶部按钮&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt;回到顶部按钮&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt; 目录去序列号&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;测试代码区&lt;/p&gt;
@@ -55,39 +59,55 @@
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;unami&lt;/a&gt;官网在这里&lt;/p&gt;
 &lt;p&gt;注册并添加自己的域名&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png&#34;
+	width=&#34;1465&#34;
+	height=&#34;690&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu15586860329154688862.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu4919893420395003140.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;212&#34;
+		data-flex-basis=&#34;509px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;将下面的代码复制下来&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami1.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1.png&#34;
+	width=&#34;1087&#34;
+	height=&#34;722&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu14188119196184692238.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu7803446262816043902.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;找到&lt;code&gt;layouts/partials/head/custom.html&lt;/code&gt;文件复制代码即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami3.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3.png&#34;
+	width=&#34;909&#34;
+	height=&#34;258&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu14210040126781981450.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu13569462940908643715.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;352&#34;
+		data-flex-basis=&#34;845px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最后就完成啦，可以看到访问量和用户来源地等等&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image%5cunami4.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4.png&#34;
+	width=&#34;1367&#34;
+	height=&#34;733&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu5801728532500325545.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu3488854746772297293.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;我还不知道怎么把这个数据应用到自己的博客上，只能登录unami的网站看访问数据。&lt;/p&gt;
