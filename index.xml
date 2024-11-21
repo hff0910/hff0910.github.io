@@ -13,16 +13,59 @@
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg" alt="Featured image of post 【Hugo】主题美化" /&gt;&lt;p&gt;博客的基础设置，主要以hugo.yaml文件为主&lt;/p&gt;
+        <description>&lt;img src="https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg" alt="Featured image of post 【Hugo】主题美化" /&gt;&lt;p&gt;博客的基础设置，主要以hugo.yaml文件为主。详细参考官方文件&lt;a class=&#34;link&#34; href=&#34;https://stack-docs.netlify.app/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stack中文文档&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stack官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下所有修改操作请养成备份的习惯&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;主页功能&#34;&gt;主页功能
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;中英文&lt;/li&gt;
-&lt;li&gt;头像、站名、简介&lt;/li&gt;
-&lt;li&gt;社交链接&lt;/li&gt;
-&lt;li&gt;网站图标&lt;/li&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;中英文&#34;&gt;中英文
+&lt;/h4&gt;&lt;p&gt;&lt;code&gt;DefaultContentLanguage&lt;/code&gt;：博客默认语言。设置为：&lt;code&gt;zh-cn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将&lt;code&gt;languages&lt;/code&gt;下除&lt;code&gt;zh-cn&lt;/code&gt;的语言删除&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DefaultContentLanguage: zh-cn&lt;/p&gt;
+&lt;p&gt;languages:
+zh-cn:
+languageName: 简体中文
+title: 林梦飞		#站名
+weight: 2
+params:
+description: 演示说明&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;头像站名简介&#34;&gt;头像、站名、简介
+&lt;/h4&gt;&lt;p&gt;&lt;code&gt;头像&lt;/code&gt;和&lt;code&gt;简介&lt;/code&gt;设置&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sidebar:
+emoji: 🤣
+subtitle: 欢迎来到我的blog，搭建中	#blog简介
+avatar:							#blog头像
+enabled: true
+local: true
+src: img/avatar.jpg				#头像文件位置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;本地路径：&lt;strong&gt;请把图片放在站点根目录的 &lt;code&gt;assets/img&lt;/code&gt; 文件夹下&lt;/strong&gt;。 例如 &lt;code&gt;assets/img/avatar.jng&lt;/code&gt;, 并填入 &lt;code&gt;img/avatar.jng&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;图片最大支持150*150&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;菜单栏&#34;&gt;菜单栏
+&lt;h4 id=&#34;网站图标&#34;&gt;网站图标
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;params:
+mainSections:
+post
+featuredImageField: image
+rssFullContent: true
+favicon: /favicon.ico&lt;/p&gt;
+&lt;p&gt;​    footer:		#页脚
+​        since: 2024
+​        customText:&lt;/p&gt;
+&lt;p&gt;​    dateFormat:
+​        published: 2006-09-02
+​        lastUpdated: 2006-09-02&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;favicon&lt;/code&gt;存放ico图像，可以去网上找一个。存放在主目录的&lt;code&gt;static&lt;/code&gt;文件夹下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;社交链接&#34;&gt;社交链接
+&lt;/h4&gt;&lt;h3 id=&#34;菜单栏&#34;&gt;菜单栏
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;新建一个菜单选项，如&lt;code&gt;友链&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;

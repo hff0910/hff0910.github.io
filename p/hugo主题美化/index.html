@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/'>
 
-<link rel="stylesheet" href="/scss/style.min.7b64ce9fb032277dd9b52377a45ce3e765cd0a038f92ac636a63e2b5028adc2a.css"><meta property='og:title' content="【Hugo】主题美化">
+<link rel="stylesheet" href="/scss/style.min.c1edff4fcbcbb3ed57fa07b6a8c5d4ce83087fd84aa054fba134af0adacc0bd5.css"><meta property='og:title' content="【Hugo】主题美化">
 <meta property='og:description' content="博客的基础设置，主要以hugo.yaml文件为主。不要只顾美化而忘记博客内容输出哦">
 <meta property='og:url' content='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/'>
 <meta property='og:site_name' content='林梦飞'>
@@ -286,7 +286,14 @@
   <ol>
     <li>
       <ol>
-        <li><a href="#主页功能">主页功能</a></li>
+        <li><a href="#主页功能">主页功能</a>
+          <ol>
+            <li><a href="#中英文">中英文</a></li>
+            <li><a href="#头像站名简介">头像、站名、简介</a></li>
+            <li><a href="#网站图标">网站图标</a></li>
+            <li><a href="#社交链接">社交链接</a></li>
+          </ol>
+        </li>
         <li><a href="#菜单栏">菜单栏</a></li>
         <li><a href="#评论功能">评论功能</a></li>
         <li><a href="#文章功能完善">文章功能完善</a></li>
@@ -373,7 +380,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -388,16 +395,59 @@
     <section class="article-content">
     
     
-    <p>博客的基础设置，主要以hugo.yaml文件为主</p>
+    <p>博客的基础设置，主要以hugo.yaml文件为主。详细参考官方文件<a class="link" href="https://stack-docs.netlify.app/zh/"  target="_blank" rel="noopener"
+    >stack中文文档</a>和<a class="link" href="https://stack.jimmycai.com/"  target="_blank" rel="noopener"
+    >stack官方文档</a></p>
 <p><strong>以下所有修改操作请养成备份的习惯</strong></p>
 <h3 id="主页功能">主页功能
-</h3><ul>
-<li>中英文</li>
-<li>头像、站名、简介</li>
-<li>社交链接</li>
-<li>网站图标</li>
+</h3><h4 id="中英文">中英文
+</h4><p><code>DefaultContentLanguage</code>：博客默认语言。设置为：<code>zh-cn</code></p>
+<p>将<code>languages</code>下除<code>zh-cn</code>的语言删除</p>
+<blockquote>
+<p>DefaultContentLanguage: zh-cn</p>
+<p>languages:
+zh-cn:
+languageName: 简体中文
+title: 林梦飞		#站名
+weight: 2
+params:
+description: 演示说明</p>
+</blockquote>
+<h4 id="头像站名简介">头像、站名、简介
+</h4><p><code>头像</code>和<code>简介</code>设置</p>
+<blockquote>
+<p>sidebar:
+emoji: 🤣
+subtitle: 欢迎来到我的blog，搭建中	#blog简介
+avatar:							#blog头像
+enabled: true
+local: true
+src: img/avatar.jpg				#头像文件位置</p>
+</blockquote>
+<ul>
+<li>本地路径：<strong>请把图片放在站点根目录的 <code>assets/img</code> 文件夹下</strong>。 例如 <code>assets/img/avatar.jng</code>, 并填入 <code>img/avatar.jng</code>.</li>
+<li>图片最大支持150*150</li>
 </ul>
-<h3 id="菜单栏">菜单栏
+<h4 id="网站图标">网站图标
+</h4><blockquote>
+<p>params:
+mainSections:
+post
+featuredImageField: image
+rssFullContent: true
+favicon: /favicon.ico</p>
+<p>​    footer:		#页脚
+​        since: 2024
+​        customText:</p>
+<p>​    dateFormat:
+​        published: 2006-09-02
+​        lastUpdated: 2006-09-02</p>
+</blockquote>
+<ul>
+<li><code>favicon</code>存放ico图像，可以去网上找一个。存放在主目录的<code>static</code>文件夹下</li>
+</ul>
+<h4 id="社交链接">社交链接
+</h4><h3 id="菜单栏">菜单栏
 </h3><ul>
 <li>新建一个菜单选项，如<code>友链</code>。</li>
 </ul>
