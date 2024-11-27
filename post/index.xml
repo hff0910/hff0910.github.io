@@ -17,9 +17,44 @@
     &gt;stack中文文档&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;stack官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下所有修改操作请养成备份的习惯&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;主页功能&#34;&gt;主页功能
-&lt;/h3&gt;&lt;h4 id=&#34;中英文&#34;&gt;中英文
-&lt;/h4&gt;&lt;p&gt;&lt;code&gt;DefaultContentLanguage&lt;/code&gt;：博客默认语言。设置为：&lt;code&gt;zh-cn&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;调试&#34;&gt;调试
+&lt;/h3&gt;&lt;p&gt;部署到github上反复调试太过麻烦，可以使用以下方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在blog主目录唤起CMD调试窗口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1.png&#34;
+	width=&#34;832&#34;
+	height=&#34;487&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu624430214894795272.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu1658568580964018799.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;键入&lt;code&gt;hugo server -D&lt;/code&gt;启动网页。复制&lt;code&gt;http://localhost:1313/&lt;/code&gt;打开网页。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2.png&#34;
+	width=&#34;765&#34;
+	height=&#34;623&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu17585481028154062863.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu16382506961430928770.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;294px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在hugo.yaml中更新的内容保存后，在&lt;code&gt;http://localhost:1313/&lt;/code&gt;网页会立刻显现。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;主页功能&#34;&gt;主页功能
+&lt;/h2&gt;&lt;h3 id=&#34;中英文&#34;&gt;中英文
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;DefaultContentLanguage&lt;/code&gt;：博客默认语言。设置为：&lt;code&gt;zh-cn&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;将&lt;code&gt;languages&lt;/code&gt;下除&lt;code&gt;zh-cn&lt;/code&gt;的语言删除&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -45,8 +80,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/blockquote&gt;
-&lt;h4 id=&#34;头像站名简介&#34;&gt;头像、站名、简介
-&lt;/h4&gt;&lt;p&gt;&lt;code&gt;头像&lt;/code&gt;和&lt;code&gt;简介&lt;/code&gt;设置&lt;/p&gt;
+&lt;h3 id=&#34;头像站名简介&#34;&gt;头像、站名、简介
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;头像&lt;/code&gt;和&lt;code&gt;简介&lt;/code&gt;设置&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -73,8 +108,8 @@
 &lt;li&gt;本地路径：&lt;strong&gt;请把图片放在站点根目录的 &lt;code&gt;assets/img&lt;/code&gt; 文件夹下&lt;/strong&gt;。 例如 &lt;code&gt;assets/img/avatar.jng&lt;/code&gt;, 并填入 &lt;code&gt;img/avatar.jng&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;图片最大支持150*150&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;网站图标&#34;&gt;网站图标
-&lt;/h4&gt;&lt;blockquote&gt;
+&lt;h3 id=&#34;网站图标&#34;&gt;网站图标
+&lt;/h3&gt;&lt;blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -100,26 +135,26 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; rssFullContent: true
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; favicon: /favicon.ico
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​    footer:		#页脚
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​        since: 2024
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​        customText:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     footer:		#页脚
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         since: 2024
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         customText:
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​    dateFormat:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​        published: 2006-01-02	#这里按照2006-01-02设置
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;​        lastUpdated: 2006-01-02
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     dateFormat:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         published: 2006-01-02	#这里按照2006-01-02设置
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         lastUpdated: 2006-01-02
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;favicon&lt;/code&gt;存放ico图像，可以去网上找一个。存放在主目录的&lt;code&gt;static&lt;/code&gt;文件夹下&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;社交链接&#34;&gt;社交链接
-&lt;/h4&gt;&lt;h3 id=&#34;菜单栏&#34;&gt;菜单栏
-&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&#34;社交链接&#34;&gt;社交链接
+&lt;/h3&gt;&lt;h2 id=&#34;菜单栏&#34;&gt;菜单栏
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;新建一个菜单选项，如&lt;code&gt;友链&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;评论功能&#34;&gt;评论功能
-&lt;/h3&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
+&lt;h2 id=&#34;评论功能&#34;&gt;评论功能
+&lt;/h2&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
 &lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png&#34;
 	width=&#34;876&#34;
@@ -133,22 +168,8 @@
 		data-flex-basis=&#34;960px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;文章功能完善&#34;&gt;文章功能完善
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt;回到顶部按钮&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt; 目录去序列号&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;测试代码区&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;统计功能unami&#34;&gt;统计功能（unami）
-&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;统计功能unami&#34;&gt;统计功能（unami）
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;unami&lt;/a&gt;官网在这里&lt;/p&gt;
 &lt;p&gt;注册并添加自己的域名&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png&#34;
@@ -203,7 +224,21 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;我还不知道怎么把这个数据应用到自己的博客上，只能登录unami的网站看访问数据。&lt;/p&gt;
-</description>
+&lt;h2 id=&#34;文章功能完善&#34;&gt;文章功能完善
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt;回到顶部按钮&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt; 目录去序列号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试代码区&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
         </item>
         <item>
         <title>【MD】markdown博客常用语法</title>
