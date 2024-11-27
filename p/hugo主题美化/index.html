@@ -401,7 +401,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -565,12 +565,63 @@
     >Tabler Icons</a></li>
 </ul>
 <h2 id="菜单栏">菜单栏
-</h2><ul>
-<li>新建一个菜单选项，如<code>友链</code>。</li>
+</h2><p><strong>下面的方法应该是不对的，但是能用一下。</strong></p>
+<ul>
+<li>
+<p>在<code>\content\page</code>文件夹下新建一个文件夹例如：<code>collection</code></p>
+</li>
+<li>
+<p>新建index.md文件。复制以下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: &#34;嘻嘻&#34;
+</span></span><span class="line"><span class="cl">date: 2019-05-28
+</span></span><span class="line"><span class="cl">layout: &#34;collection&#34;
+</span></span><span class="line"><span class="cl">slug: &#34;collection&#34;
+</span></span><span class="line"><span class="cl">comments: false
+</span></span><span class="line"><span class="cl">menu:
+</span></span><span class="line"><span class="cl">    main:
+</span></span><span class="line"><span class="cl">        weight: -70
+</span></span><span class="line"><span class="cl">        params: 
+</span></span><span class="line"><span class="cl">            icon: collection	#若找不到icon文件可以先改为search先用着
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p><code>title</code>：显示在页面的名字</p>
+<p><code>collection</code>：与文件名一致。<strong>icon文件存在主目录的\assets\icons内</strong></p>
+<ul>
+<li>
+<p>搜索<code>hugo.yaml</code>文件找到<code>homepage</code>。并添加<code>collection</code>项</p>
+<p>widgets:			#部件（主页左边部分）
+homepage:
+- type: search
+- type: collection
+params:
+limit: 5
+- type: archives
+params:
+limit: 5
+- type: collection		#添加以下内容
+params:
+limit: 5</p>
+</li>
 </ul>
 <h2 id="评论功能">评论功能
 </h2><p>目前采用<code>utterances</code>评论系统，但是这个评论需要登录github不太方便。</p>
-<p>找到了<code>waline</code>评论系统，但是我很菜还没整明白。下面是<code>waline</code>的界面，我看到的大部分blog都是采用这种评论</p>
+<p>找到了<code>waline</code>评论系统，但是我很菜还没整明白。下面是<code>waline</code>的界面，我看到的大部分blog都是采用这种评论。</p>
 <p><img src="/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png"
 	width="876"
 	height="219"
@@ -585,8 +636,7 @@
 ></p>
 <h2 id="统计功能unami">统计功能（unami）
 </h2><p><a class="link" href="https://umami.is/?ref=irithys.com"  target="_blank" rel="noopener"
-    >unami</a>官网在这里</p>
-<p>注册并添加自己的域名</p>
+    >unami</a>官网在这里，注册并添加自己的域名。</p>
 <p><img src="/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png"
 	width="1465"
 	height="690"
@@ -645,16 +695,7 @@
 <li><strong>待完成</strong>回到顶部按钮</li>
 <li><strong>待完成</strong> 目录去序列号</li>
 </ul>
-<p>测试代码区</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">hello</span> <span class="n">world</span><span class="p">)</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div>
+
 </section>
 
 

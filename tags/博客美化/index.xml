@@ -162,12 +162,63 @@
     &gt;Tabler Icons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;菜单栏&#34;&gt;菜单栏
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;新建一个菜单选项，如&lt;code&gt;友链&lt;/code&gt;。&lt;/li&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;下面的方法应该是不对的，但是能用一下。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;code&gt;\content\page&lt;/code&gt;文件夹下新建一个文件夹例如：&lt;code&gt;collection&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新建index.md文件。复制以下代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;嘻嘻&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2019-05-28
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;layout: &amp;#34;collection&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;slug: &amp;#34;collection&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;comments: false
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;menu:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    main:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        weight: -70
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        params: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            icon: collection	#若找不到icon文件可以先改为search先用着
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;：显示在页面的名字&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;collection&lt;/code&gt;：与文件名一致。&lt;strong&gt;icon文件存在主目录的\assets\icons内&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;搜索&lt;code&gt;hugo.yaml&lt;/code&gt;文件找到&lt;code&gt;homepage&lt;/code&gt;。并添加&lt;code&gt;collection&lt;/code&gt;项&lt;/p&gt;
+&lt;p&gt;widgets:			#部件（主页左边部分）
+homepage:
+- type: search
+- type: collection
+params:
+limit: 5
+- type: archives
+params:
+limit: 5
+- type: collection		#添加以下内容
+params:
+limit: 5&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;评论功能&#34;&gt;评论功能
 &lt;/h2&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
-&lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论&lt;/p&gt;
+&lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png&#34;
 	width=&#34;876&#34;
 	height=&#34;219&#34;
@@ -182,8 +233,7 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;统计功能unami&#34;&gt;统计功能（unami）
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;unami&lt;/a&gt;官网在这里&lt;/p&gt;
-&lt;p&gt;注册并添加自己的域名&lt;/p&gt;
+    &gt;unami&lt;/a&gt;官网在这里，注册并添加自己的域名。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png&#34;
 	width=&#34;1465&#34;
 	height=&#34;690&#34;
@@ -242,16 +292,7 @@
 &lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt;回到顶部按钮&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;待完成&lt;/strong&gt; 目录去序列号&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;测试代码区&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+</description>
         </item>
         
     </channel>
