@@ -149,7 +149,19 @@
 &lt;li&gt;&lt;code&gt;favicon&lt;/code&gt;存放ico图像，可以去网上找一个。存放在主目录的&lt;code&gt;static&lt;/code&gt;文件夹下&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;社交链接&#34;&gt;社交链接
-&lt;/h3&gt;&lt;h2 id=&#34;菜单栏&#34;&gt;菜单栏
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;social:				#ico文件在F:\blog\myblog\assets\icons
+    - identifier: github
+      name: GitHub
+      url: https://github.com/hff0910
+      params:
+          icon: brand-github
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;ico文件存在主目录的\assets\icons内&lt;/li&gt;
+&lt;li&gt;icons文件可以直接从这里下载：&lt;a class=&#34;link&#34; href=&#34;https://tabler.io/icons&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tabler Icons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;菜单栏&#34;&gt;菜单栏
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;新建一个菜单选项，如&lt;code&gt;友链&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
