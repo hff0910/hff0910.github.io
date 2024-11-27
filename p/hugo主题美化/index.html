@@ -10,7 +10,7 @@
 <meta property='og:description' content="博客的基础设置，主要以hugo.yaml文件为主。不要只顾美化而忘记博客内容输出哦">
 <meta property='og:url' content='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/'>
 <meta property='og:site_name' content='林梦飞'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客美化' /><meta property='article:published_time' content='2024-11-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客美化' /><meta property='article:published_time' content='2024-11-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-28T00:00:00&#43;00:00'/><meta property='og:image' content='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg' />
 <meta name="twitter:title" content="【Hugo】主题美化">
 <meta name="twitter:description" content="博客的基础设置，主要以hugo.yaml文件为主。不要只顾美化而忘记博客内容输出哦"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg' />
@@ -726,7 +726,19 @@
     </section>
 
 
-    </footer>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2024-11-28
+        </span>
+    </section></footer>
 
 
     
@@ -982,6 +994,17 @@
         document.head.appendChild(customFont);
     }());
 </script>
-
+<style>
+    @font-face {
+      font-family: 'ChillHuoKai_Regular';
+      src: url(https://mqdfei.top/font/ChillHuoKai_Regular.otf) format('truetype');
+    }
+  
+    :root {
+      --base-font-family: 'ChillHuoKai_Regular';
+      --code-font-family: 'ChillHuoKai_Regular';
+    }
+  </style>
+  
     </body>
 </html>
