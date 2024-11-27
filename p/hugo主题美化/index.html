@@ -365,7 +365,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-09-21</time>
+                <time class="article-time--published">2024-11-21</time>
             </div>
         
 
@@ -404,45 +404,94 @@
 </h4><p><code>DefaultContentLanguage</code>：博客默认语言。设置为：<code>zh-cn</code></p>
 <p>将<code>languages</code>下除<code>zh-cn</code>的语言删除</p>
 <blockquote>
-<p>DefaultContentLanguage: zh-cn</p>
-<p>languages:
-zh-cn:
-languageName: 简体中文
-title: 林梦飞		#站名
-weight: 2
-params:
-description: 演示说明</p>
-</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">DefaultContentLanguage: zh-cn
+</span></span><span class="line"><span class="cl">languages:
+</span></span><span class="line"><span class="cl"> zh-cn:
+</span></span><span class="line"><span class="cl">     languageName: 简体中文
+</span></span><span class="line"><span class="cl">     title: 林梦飞		#站名
+</span></span><span class="line"><span class="cl">     weight: 2
+</span></span><span class="line"><span class="cl">     params:
+</span></span><span class="line"><span class="cl">         description: 演示说明	
+</span></span></code></pre></td></tr></table>
+</div>
+</div></blockquote>
 <h4 id="头像站名简介">头像、站名、简介
 </h4><p><code>头像</code>和<code>简介</code>设置</p>
 <blockquote>
-<p>sidebar:
-emoji: 🤣
-subtitle: 欢迎来到我的blog，搭建中	#blog简介
-avatar:							#blog头像
-enabled: true
-local: true
-src: img/avatar.jpg				#头像文件位置</p>
-</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sidebar:
+</span></span><span class="line"><span class="cl">     emoji: 🤣
+</span></span><span class="line"><span class="cl">     subtitle: 欢迎来到我的blog，搭建中	#blog简介
+</span></span><span class="line"><span class="cl">     avatar:							#blog头像
+</span></span><span class="line"><span class="cl">         enabled: true
+</span></span><span class="line"><span class="cl">         local: true
+</span></span><span class="line"><span class="cl">         src: img/avatar.jpg				#头像文件位置
+</span></span></code></pre></td></tr></table>
+</div>
+</div></blockquote>
 <ul>
 <li>本地路径：<strong>请把图片放在站点根目录的 <code>assets/img</code> 文件夹下</strong>。 例如 <code>assets/img/avatar.jng</code>, 并填入 <code>img/avatar.jng</code>.</li>
 <li>图片最大支持150*150</li>
 </ul>
 <h4 id="网站图标">网站图标
 </h4><blockquote>
-<p>params:
-mainSections:
-post
-featuredImageField: image
-rssFullContent: true
-favicon: /favicon.ico</p>
-<p>​    footer:		#页脚
-​        since: 2024
-​        customText:</p>
-<p>​    dateFormat:
-​        published: 2006-09-02
-​        lastUpdated: 2006-09-02</p>
-</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">params:	
+</span></span><span class="line"><span class="cl"> mainSections:
+</span></span><span class="line"><span class="cl">      post
+</span></span><span class="line"><span class="cl"> featuredImageField: image
+</span></span><span class="line"><span class="cl"> rssFullContent: true
+</span></span><span class="line"><span class="cl"> favicon: /favicon.ico
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    footer:		#页脚
+</span></span><span class="line"><span class="cl">​        since: 2024
+</span></span><span class="line"><span class="cl">​        customText:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    dateFormat:
+</span></span><span class="line"><span class="cl">​        published: 2006-01-02	#这里按照2006-01-02设置
+</span></span><span class="line"><span class="cl">​        lastUpdated: 2006-01-02
+</span></span></code></pre></td></tr></table>
+</div>
+</div></blockquote>
 <ul>
 <li><code>favicon</code>存放ico图像，可以去网上找一个。存放在主目录的<code>static</code>文件夹下</li>
 </ul>
