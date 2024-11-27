@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
-        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】主题美化</title>
         <link>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
@@ -982,24 +982,80 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;文章相关&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章标签提到封面&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章目录去除自带序号&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加回顶部按钮&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;功能相关&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 评论功能（waline）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 音乐播放器&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在线粘贴板&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;h3 id=&#34;文章相关&#34;&gt;文章相关
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;完成时间&lt;/th&gt;
+          &lt;th&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;将&lt;strong&gt;文章更新时间&lt;/strong&gt;、&lt;strong&gt;标签&lt;/strong&gt;提到封面&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;将&lt;strong&gt;目录中的自带序号&lt;/strong&gt;去掉&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;增加&lt;strong&gt;置顶文章&lt;/strong&gt;功能&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;能用不着急&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;功能相关&#34;&gt;功能相关
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;完成时间&lt;/th&gt;
+          &lt;th&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;实现音乐播放功能&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;完善技术链接需要的网址、social按钮&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;增加&lt;strong&gt;评论&lt;/strong&gt;、&lt;strong&gt;赞赏&lt;/strong&gt;功能&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;增加&lt;strong&gt;回顶部&lt;/strong&gt;按钮&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;修改&lt;strong&gt;左侧边栏&lt;/strong&gt;图标样式&lt;/td&gt;
+          &lt;td&gt;xx-xx-xx&lt;/td&gt;
+          &lt;td&gt;在&lt;strong&gt;blog\myblog\themes&lt;br /&gt;\hugo-theme-stack\assets\icons&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         </item>
         <item>
@@ -1025,8 +1081,8 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;这是我的好友链接。现在的数量为：4&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第一次做Blog，没去联系这几位Blog主人（太懒了）。所以只能算是单向好友，如果有什么侵权的地方可以联系改正。&lt;/p&gt;
+        <description>&lt;h3 id=&#34;这是我的好友链接现在的数量为4&#34;&gt;这是我的好友链接。现在的数量为：4
+&lt;/h3&gt;&lt;p&gt;第一次做Blog，没去联系这几位Blog主人（太懒了）。所以只能算是单向好友，如果有什么侵权的地方可以联系改正。&lt;/p&gt;
 </description>
         </item>
         
