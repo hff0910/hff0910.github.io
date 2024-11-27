@@ -605,19 +605,37 @@
 <ul>
 <li>
 <p>搜索<code>hugo.yaml</code>文件找到<code>homepage</code>。并添加<code>collection</code>项</p>
-<p>widgets:			#部件（主页左边部分）
-homepage:
-- type: search
-- type: collection
-params:
-limit: 5
-- type: archives
-params:
-limit: 5
-- type: collection		#添加以下内容
-params:
-limit: 5</p>
-</li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">widgets:			#部件（主页左边部分）
+</span></span><span class="line"><span class="cl">    homepage:
+</span></span><span class="line"><span class="cl">        - type: search
+</span></span><span class="line"><span class="cl">        - type: links
+</span></span><span class="line"><span class="cl">          params:
+</span></span><span class="line"><span class="cl">              limit: 5
+</span></span><span class="line"><span class="cl">        - type: archives
+</span></span><span class="line"><span class="cl">          params:
+</span></span><span class="line"><span class="cl">              limit: 5
+</span></span><span class="line"><span class="cl">        - type: collection		#添加以下内容
+</span></span><span class="line"><span class="cl">          params:
+</span></span><span class="line"><span class="cl">              limit: 5
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>
 <h2 id="评论功能">评论功能
 </h2><p>目前采用<code>utterances</code>评论系统，但是这个评论需要登录github不太方便。</p>
