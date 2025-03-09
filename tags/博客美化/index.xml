@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客美化 on 林梦飞</title>
-        <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
+        <link>https://mqdfei.top/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
         <description>Recent content in 博客美化 on 林梦飞</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
-        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】主题美化</title>
-        <link>http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
+        <link>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg" alt="Featured image of post 【Hugo】主题美化" /&gt;&lt;p&gt;博客的基础设置，主要以hugo.yaml文件为主。详细参考官方文件&lt;a class=&#34;link&#34; href=&#34;https://stack-docs.netlify.app/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
+        <description>&lt;img src="https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/liu.jpg" alt="Featured image of post 【Hugo】主题美化" /&gt;&lt;p&gt;博客的基础设置，主要以hugo.yaml文件为主。详细参考官方文件&lt;a class=&#34;link&#34; href=&#34;https://stack-docs.netlify.app/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;stack中文文档&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;stack官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下所有修改操作请养成备份的习惯&lt;/strong&gt;&lt;/p&gt;
@@ -22,10 +22,10 @@
 &lt;ul&gt;
 &lt;li&gt;在blog主目录唤起CMD调试窗口&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1.png&#34;
 	width=&#34;832&#34;
 	height=&#34;487&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu_c253ce68554a533e.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu_20b33984126d1cf1.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu_c253ce68554a533e.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi1_hu_20b33984126d1cf1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -37,10 +37,10 @@
 &lt;ul&gt;
 &lt;li&gt;键入&lt;code&gt;hugo server -D&lt;/code&gt;启动网页。复制&lt;code&gt;http://localhost:1313/&lt;/code&gt;打开网页。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2.png&#34;
 	width=&#34;765&#34;
 	height=&#34;623&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu_f752cef2a6ef3586.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu_f18a3ad3bac4d4fd.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu_f752cef2a6ef3586.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/tiaoshi2_hu_f18a3ad3bac4d4fd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -237,10 +237,10 @@
 &lt;h2 id=&#34;评论功能&#34;&gt;评论功能
 &lt;/h2&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
 &lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline.png&#34;
 	width=&#34;876&#34;
 	height=&#34;219&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu_51e4e57ab96ae297.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu_c440cd712545fd35.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu_51e4e57ab96ae297.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/waline_hu_c440cd712545fd35.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -252,10 +252,10 @@
 &lt;h2 id=&#34;统计功能unami&#34;&gt;统计功能（unami）
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;unami&lt;/a&gt;官网在这里，注册并添加自己的域名。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2.png&#34;
 	width=&#34;1465&#34;
 	height=&#34;690&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu_d3137b81ae6c8608.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu_69fa9d6b6b01b270.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu_d3137b81ae6c8608.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami2_hu_69fa9d6b6b01b270.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -265,10 +265,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;将下面的代码复制下来&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1.png&#34;
 	width=&#34;1087&#34;
 	height=&#34;722&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu_96019661e3635970.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu_fd7dbbd42ec7cf1b.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu_96019661e3635970.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami1_hu_fd7dbbd42ec7cf1b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -278,10 +278,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;找到&lt;code&gt;layouts/partials/head/custom.html&lt;/code&gt;文件复制代码即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3.png&#34;
 	width=&#34;909&#34;
 	height=&#34;258&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu_4f6ef1c664bf9b78.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu_16c327f452a9f87d.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu_4f6ef1c664bf9b78.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami3_hu_16c327f452a9f87d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -292,10 +292,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;最后就完成啦，可以看到访问量和用户来源地等等。查看网址：&lt;a class=&#34;link&#34; href=&#34;https://cloud.umami.is/settings/websites&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Websites | Umami Cloud&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4.png&#34;
 	width=&#34;1367&#34;
 	height=&#34;733&#34;
-	srcset=&#34;http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu_556393608a974ec9.png 480w, http://localhost:1313/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu_fb06d82cc441c52b.png 1024w&#34;
+	srcset=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu_556393608a974ec9.png 480w, https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/image/unami4_hu_fb06d82cc441c52b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
