@@ -39,6 +39,11 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 音乐播放器&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在线粘贴板&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;细节&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 友链和技术连接双栏&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
