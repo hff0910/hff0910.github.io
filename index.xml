@@ -358,12 +358,12 @@
 &lt;li&gt;
 &lt;p&gt;超链接&lt;/p&gt;
 &lt;blockquote&gt;
-\[显示的名字\]&lt;p&gt;\(需要跳转的链接\)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;格式：[显示的名字](需要跳转的链接)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;插入图片&lt;/p&gt;
 &lt;blockquote&gt;
-\[显示的名字 可以空着\]&lt;p&gt;\(图片的名称\)&lt;/p&gt;
+&lt;p&gt;格式：![显示的名字 可以空着](图片的名称)&lt;/p&gt;
 &lt;p&gt;这里的图片名称可以是url也可以是&lt;strong&gt;本地地址&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;若是本地地址时，需要把图片和md文档放在一个路径下。或是下层路径，书写格式为：/file/image.png&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
@@ -1047,64 +1047,31 @@
 </description>
         </item>
         <item>
-        <title>归档</title>
-        <link>https://mqdfei.top/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <title>About</title>
+        <link>https://mqdfei.top/about/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>更新计划</title>
-        <link>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;文章相关&lt;/strong&gt;&lt;/p&gt;
+        <guid>https://mqdfei.top/about/</guid>
+        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
+&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章标签提到封面&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章目录去除自带序号&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加回顶部按钮&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;功能相关&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 评论功能（waline）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 音乐播放器&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在线粘贴板&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>技术链接</title>
-        <link>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;这是我的技术链接。当做网络收藏夹用，以便随时找到需要的网址，脱离浏览器书签的限制&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://mqdfei.top/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>友链</title>
-        <link>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;这是我的好友链接。现在的数量为：4&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第一次做Blog，没去联系这几位Blog主人（太懒了）。所以只能算是单向好友，如果有什么侵权的地方可以联系改正。&lt;/p&gt;
+&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
+&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
+&lt;p&gt;Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
+&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         

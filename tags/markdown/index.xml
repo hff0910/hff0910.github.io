@@ -53,12 +53,12 @@
 &lt;li&gt;
 &lt;p&gt;超链接&lt;/p&gt;
 &lt;blockquote&gt;
-\[显示的名字\]&lt;p&gt;\(需要跳转的链接\)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;格式：[显示的名字](需要跳转的链接)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;插入图片&lt;/p&gt;
 &lt;blockquote&gt;
-\[显示的名字 可以空着\]&lt;p&gt;\(图片的名称\)&lt;/p&gt;
+&lt;p&gt;格式：![显示的名字 可以空着](图片的名称)&lt;/p&gt;
 &lt;p&gt;这里的图片名称可以是url也可以是&lt;strong&gt;本地地址&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;若是本地地址时，需要把图片和md文档放在一个路径下。或是下层路径，书写格式为：/file/image.png&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
