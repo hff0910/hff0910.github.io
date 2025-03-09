@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Markdown on 林梦飞</title>
+        <link>http://localhost:1313/tags/markdown/</link>
+        <description>Recent content in Markdown on 林梦飞</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>林梦飞-mqdfei</copyright>
+        <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【MD】markdown博客常用语法</title>
+        <link>http://localhost:1313/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</guid>
+        <description>&lt;img src="http://localhost:1313/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg" alt="Featured image of post 【MD】markdown博客常用语法" /&gt;&lt;p&gt;&lt;strong&gt;md格式是近年来兴起的纯文本格式，主要用来写一些说明文档及Blog。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下为写Blog常用的基础语法&lt;/p&gt;
+&lt;h2 id=&#34;基础语法&#34;&gt;基础语法
+&lt;/h2&gt;&lt;h3 id=&#34;字体&#34;&gt;字体
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;加粗&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在需要加粗的文字前后加**即可。例：**加粗** == &lt;strong&gt;加粗&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜体&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在需要倾斜的文字前后加*即可。例：*倾斜* == &lt;em&gt;倾斜&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;删除线&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在需要加删除线的文字前后加~~即可。例：~~倾斜~~ == &lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;标题&#34;&gt;标题
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一、二、三&amp;hellip;级标题&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;# 一号标题       ## 二号标题     ### 三号标题     以此类推，&lt;strong&gt;注意#和文字之间有一个空格&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有序无序列表&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有序列表&lt;/p&gt;
+&lt;p&gt;无序列表&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;插入附件&#34;&gt;插入附件
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;超链接&lt;/p&gt;
+&lt;blockquote&gt;
+\[显示的名字\]&lt;p&gt;\(需要跳转的链接\)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入图片&lt;/p&gt;
+&lt;blockquote&gt;
+\[显示的名字 可以空着\]&lt;p&gt;\(图片的名称\)&lt;/p&gt;
+&lt;p&gt;这里的图片名称可以是url也可以是&lt;strong&gt;本地地址&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;若是本地地址时，需要把图片和md文档放在一个路径下。或是下层路径，书写格式为：/file/image.png&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入视频&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;格式：{{&amp;lt; bilibili BV1bovfeaEtQ 1 &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;以Bilibili为例。&lt;/p&gt;
+&lt;p&gt;其中&lt;strong&gt;BV1bovfeaEtQ&lt;/strong&gt;为视频的bv号，数字&lt;strong&gt;1&lt;/strong&gt;当视频为多p视频时选择用&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入表格&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;格式：|内容|内容|内容|&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入代码块&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;格式：程序段前后加上~~~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入引用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;格式：&amp;gt;加空格&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;测试&#34;&gt;测试
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
