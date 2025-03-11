@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/'>
 
-<link rel="stylesheet" href="/scss/style.min.b41fbeb1758861b170a462ca5c5b93b973caa976a8f1c39fb877a49158ef60fb.css"><meta property='og:title' content="【MD】markdown博客常用语法">
+<link rel="stylesheet" href="/scss/style.min.b23dac31f623eeded0106a95dfe9b9c9dbdc771d4490bac617a30404451af3a0.css"><meta property='og:title' content="【MD】markdown博客常用语法">
 <meta property='og:description' content="markdown博客常用语法，方便自己使用">
 <meta property='og:url' content='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/'>
 <meta property='og:site_name' content='林梦飞'>
@@ -281,23 +281,19 @@
         
             
                 
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
 
+ 
 
+<button id="toggle-toc">Toc</button>
 
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
+<section class="widget archives" id="toc-container">
+    
+    <h2 class="widget-title section-title">目录</h2>
+    
+
+    <div class="widget--toc">
         
-        <div class="widget--toc">
-            <nav id="TableOfContents">
+        <nav id="TableOfContents">
   <ol>
     <li><a href="#基础语法">基础语法</a>
       <ol>
@@ -308,10 +304,123 @@
     </li>
   </ol>
 </nav>
-        </div>
-    </section>
+        
+    </div>
+</section>
 
 
+<style>
+    #mulu {
+        z-index: 9999;
+    }
+    
+    #toc-container {
+        display: none;
+         
+        position: fixed;
+         
+        bottom: 21%;
+         
+        right: 60px;
+         
+        background-color: var(--card-background);
+         
+        padding: 10px;
+         
+        border: 1px solid #96979a50;
+        border-radius: var(--card-border-radius);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+         
+        z-index: 9998 !important;
+         
+        max-height: 80vh;
+         
+        overflow-y: auto;
+         
+        width: auto;
+         
+        max-width: 290px;
+    }
+    
+    #toggle-toc {
+        position: fixed;
+        bottom: 22%;
+        right: 20px;
+        padding: 10px 10px;
+        z-index: 9998 !important;
+        border: 0px solid #96979a50;
+        border-radius: 7px;
+        box-shadow: var(--shadow-l1);
+        background-color: #00640010;
+        color: #34495e;
+         
+         
+        display: block;
+         
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+         
+    }
+    
+    .widget--toc #TableOfContents {
+        overflow-x: auto;
+        max-height: 66vh;
+        width: auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #toggle-toc {
+            bottom: 100px;
+        }
+    }
+</style>
+
+<script>
+    
+    var toggleButton = document.getElementById('toggle-toc');
+    var tocContainer = document.getElementById('toc-container');
+    var scrollThreshold = 200; 
+
+    
+    window.addEventListener('scroll', function() {
+        
+        var scrollY = window.scrollY || window.pageYOffset;
+
+        
+        if (scrollY >= scrollThreshold) {
+            
+            toggleButton.style.display = 'block';
+        } else {
+            
+            toggleButton.style.display = 'none';
+        }
+    });
+
+    
+    toggleButton.addEventListener('click', function() {
+        
+        if (tocContainer.style.display === 'none' || tocContainer.style.display === '') {
+            tocContainer.style.display = 'block';
+        } else {
+            tocContainer.style.display = 'none';
+        }
+    });
+    
+    toggleButton.addEventListener('mouseover', function() {
+        tocContainer.style.display = 'block';
+    });
+
+
+    
+    document.addEventListener('click', function(event) {
+        
+        if (!tocContainer.contains(event.target) && event.target !== toggleButton) {
+            
+            tocContainer.style.display = 'none';
+        }
+    });
+</script>
 
             
         
