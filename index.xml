@@ -110,7 +110,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;授权码需要去邮箱设置内开启，一般在设置-账户与安全内。&lt;/p&gt;
 &lt;p&gt;设置完成后可以记得&lt;strong&gt;先保存&lt;/strong&gt;，再使用“邮件通知测试”测试邮箱地址。&lt;/p&gt;
-&lt;p&gt;参考链接：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考链接：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/twikoo-tutorial/#%e5%8f%af%e9%80%89%e9%85%8d%e7%bd%ae%e9%82%ae%e4%bb%b6%e9%80%9a%e7%9f%a5%e6%8f%90%e9%86%92gmail%e9%82%ae%e7%ae%b1%e7%a4%ba%e4%be%8b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;在静态博客里添加Twikoo评论系统，并配置邮箱和TG通知&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org/quick-start.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
