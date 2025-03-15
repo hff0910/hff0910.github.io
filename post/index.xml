@@ -8,6 +8,34 @@
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
         <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【软件】电脑软件推荐</title>
+        <link>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+        <description>&lt;img src="https://mqdfei.top/image/fengmian.jpg" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;p&gt;&lt;strong&gt;Typora破解&lt;/strong&gt;
+找到安装目录下：resources\page-dist\static\js文件夹的&lt;code&gt;LicenseIndex.180dd4c7.4da8909c.chunk.js&lt;/code&gt;文件用记事本打开
+搜索到&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==e.hasActivated&lt;/code&gt;
+改为&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==&amp;quot;true&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;去除破解成功界面&lt;/strong&gt;
+找到安装目录下：resources\page-dist文件夹的&lt;code&gt;license.html&lt;/code&gt;文件用记事本打开
+在文末的&lt;code&gt;&amp;lt;/html&amp;gt;&lt;/code&gt;前加上：
+&lt;code&gt;&amp;lt;script&amp;gt;setTimeout(function () {window.close()}, 10);&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie.png&#34;
+	width=&#34;694&#34;
+	height=&#34;96&#34;
+	srcset=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie_hu_fb1e649b2ef72221.png 480w, https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie_hu_8b20ce0bc82b2643.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;722&#34;
+		data-flex-basis=&#34;1735px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>【Hugo】主题美化</title>
         <link>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
@@ -1270,12 +1298,16 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;update&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;或者
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init ;git add .;git commit -m &amp;#34;update&amp;#34;;git push
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;声明&#34;&gt;声明
