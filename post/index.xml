@@ -13,7 +13,7 @@
         <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/fengmian.png" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;p&gt;&lt;strong&gt;Typora破解&lt;/strong&gt;
+        <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/fengmiantu.png" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;p&gt;&lt;strong&gt;Typora破解&lt;/strong&gt;
 找到安装目录下：resources\page-dist\static\js文件夹的&lt;code&gt;LicenseIndex.180dd4c7.4da8909c.chunk.js&lt;/code&gt;文件用记事本打开
 搜索到&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==e.hasActivated&lt;/code&gt;
 改为&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==&amp;quot;true&amp;quot;&lt;/code&gt;&lt;/p&gt;
