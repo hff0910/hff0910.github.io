@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="markdown博客常用语法，方便自己使用">
-<title>【MD】markdown博客常用语法</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="评论系统">
+<title>【Hugo】Twikoo评论系统</title>
 
-<link rel='canonical' href='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/'>
+<link rel='canonical' href='https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/'>
 
-<link rel="stylesheet" href="/scss/style.min.e3b4d36398a27d2e0d04164c167ace17ed8c8d8286f95d3687e6729c438f8b9a.css"><meta property='og:title' content="【MD】markdown博客常用语法">
-<meta property='og:description' content="markdown博客常用语法，方便自己使用">
-<meta property='og:url' content='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/'>
+<link rel="stylesheet" href="/scss/style.min.e3b4d36398a27d2e0d04164c167ace17ed8c8d8286f95d3687e6729c438f8b9a.css"><meta property='og:title' content="【Hugo】Twikoo评论系统">
+<meta property='og:description' content="评论系统">
+<meta property='og:url' content='https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/'>
 <meta property='og:site_name' content='林梦飞'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='markdown' /><meta property='article:published_time' content='2024-09-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg' />
-<meta name="twitter:title" content="【MD】markdown博客常用语法">
-<meta name="twitter:description" content="markdown博客常用语法，方便自己使用"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hugo博客美化' /><meta property='article:published_time' content='2025-03-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-03-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png' />
+<meta name="twitter:title" content="【Hugo】Twikoo评论系统">
+<meta name="twitter:description" content="评论系统"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -295,13 +295,11 @@
         
         <nav id="TableOfContents">
   <ol>
-    <li><a href="#基础语法">基础语法</a>
-      <ol>
-        <li><a href="#字体">字体</a></li>
-        <li><a href="#标题">标题</a></li>
-        <li><a href="#插入附件">插入附件</a></li>
-      </ol>
-    </li>
+    <li><a href="#为什么选择twikoo">为什么选择Twikoo</a></li>
+    <li><a href="#配置mongodb">配置MongoDB</a></li>
+    <li><a href="#云函数部署vercel">云函数部署（Vercel）</a></li>
+    <li><a href="#hugo前端部署">Hugo前端部署</a></li>
+    <li><a href="#twikoo管理">Twikoo管理</a></li>
   </ol>
 </nav>
         
@@ -431,13 +429,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/">
-                <img src="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian_hu_b0bcdb35bc353e57.jpg"
-                        srcset="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian_hu_b0bcdb35bc353e57.jpg 800w, /p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian_hu_1c6a70280a1fe6f8.jpg 1600w"
+            <a href="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/">
+                <img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo_hu_2d6a2a3706776dff.png"
+                        srcset="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo_hu_2d6a2a3706776dff.png 800w, /p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo_hu_42a249232fa99abc.png 1600w"
                         width="800" 
-                        height="451" 
+                        height="450" 
                         loading="lazy"
-                        alt="Featured image of post 【MD】markdown博客常用语法" />
+                        alt="Featured image of post 【Hugo】Twikoo评论系统" />
                 
             </a>
         </div>
@@ -459,8 +457,8 @@
          
         <header class="article-tags">
             
-                <a href="/tags/markdown/" >
-                    #Markdown
+                <a href="/tags/hugo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" >
+                    #Hugo博客美化
                 </a>
             
         </header>
@@ -469,12 +467,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/">【MD】markdown博客常用语法</a>
+            <a href="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/">【Hugo】Twikoo评论系统</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            markdown博客常用语法，方便自己使用
+            评论系统
         </h3>
         
     </div>
@@ -496,7 +494,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-09-16</time>
+                <time class="article-time--published">2025-03-15</time>
             </div>
         
 
@@ -527,80 +525,41 @@
     <section class="article-content">
     
     
-    <p><strong>md格式是近年来兴起的纯文本格式，主要用来写一些说明文档及Blog。</strong></p>
-<p>以下为写Blog常用的基础语法</p>
-<h2 id="基础语法">基础语法
-</h2><h3 id="字体">字体
-</h3><ul>
-<li>
-<p>加粗</p>
-<blockquote>
-<p>在需要加粗的文字前后加**即可。例：**加粗** == <strong>加粗</strong></p></blockquote>
-</li>
-<li>
-<p>斜体</p>
-<blockquote>
-<p>在需要倾斜的文字前后加*即可。例：*倾斜* == <em>倾斜</em></p></blockquote>
-</li>
-<li>
-<p>删除线</p>
-<blockquote>
-<p>在需要加删除线的文字前后加~~即可。例：~~倾斜~~ == <del>删除线</del></p></blockquote>
-</li>
+    <h2 id="为什么选择twikoo">为什么选择Twikoo
+</h2><ul>
+<li>开源，免费，轻量无广告（吊打Disqus等一众评论服务）</li>
+<li>匿名性好，不需要强制社交账号登录（重要‼️）</li>
+<li>有新评论时可收到邮箱/即时消息通知</li>
+<li>游客若留下邮箱，评论被回复时可收到邮件提醒（cusdis不支持）</li>
+<li>数据支持导入导出</li>
 </ul>
-<h3 id="标题">标题
-</h3><ul>
-<li>
-<p>一、二、三&hellip;级标题</p>
-<blockquote>
-<p># 一号标题       ## 二号标题     ### 三号标题     以此类推，<strong>注意#和文字之间有一个空格</strong></p></blockquote>
-</li>
-<li>
-<p>有序无序列表</p>
-<blockquote>
-<p>有序列表</p>
-<p>无序列表</p></blockquote>
-</li>
-</ul>
-<h3 id="插入附件">插入附件
-</h3><ul>
-<li>
-<p>超链接</p>
-<blockquote>
-<p>格式：[显示的名字](需要跳转的链接)</p></blockquote>
-</li>
-<li>
-<p>插入图片</p>
-<blockquote>
-<p>格式：![显示的名字 可以空着](图片的名称)</p>
-<p>这里的图片名称可以是url也可以是<strong>本地地址</strong></p>
-<p>若是本地地址时，需要把图片和md文档放在一个路径下。或是下层路径，书写格式为：/file/image.png</p></blockquote>
-</li>
-<li>
-<p>插入视频</p>
-<blockquote>
-<p>格式：{{&lt; bilibili BV1bovfeaEtQ 1 &gt;}}</p>
-<p>以Bilibili为例。</p>
-<p>其中<strong>BV1bovfeaEtQ</strong>为视频的bv号，数字<strong>1</strong>当视频为多p视频时选择用</p></blockquote>
-</li>
-<li>
-<p>插入表格</p>
-<blockquote>
-<p>格式：|内容|内容|内容|</p></blockquote>
-</li>
-<li>
-<p>插入代码块</p>
-<blockquote>
-<p>格式：程序段前后加上~~~</p></blockquote>
-</li>
-<li>
-<p>插入引用</p>
-<blockquote>
-<p>格式：&gt;加空格</p></blockquote>
-</li>
-</ul>
-<h1 id="测试">测试
-</h1>
+<h2 id="配置mongodb">配置MongoDB
+</h2><p>推荐视频：<a class="link" href="https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=55815d0c08cf89a57380dc5335b007cf"  target="_blank" rel="noopener"
+    >Twikoo Vercel 部署教程_哔哩哔哩_bilibili</a></p>
+<h2 id="云函数部署vercel">云函数部署（Vercel）
+</h2><p>这里到<code>Vercel Domains（包含 </code>https://<code>前缀，例如</code><a class="link" href="https://xxx.vercel.app"  target="_blank" rel="noopener"
+    >https://xxx.vercel.app</a><code>）即为您的环境 id</code>这一步时，因为.app的域名需要翻墙，需要添加一个国内域名。参考视频：<a class="link" href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&amp;vd_source=55815d0c08cf89a57380dc5335b007cf"  target="_blank" rel="noopener"
+    >23.butterfly配置twikoo评论系统_哔哩哔哩_bilibili</a></p>
+<h2 id="hugo前端部署">Hugo前端部署
+</h2><p><img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook.png"
+	width="819"
+	height="388"
+	srcset="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook_hu_1f4cdf6b7af281df.png 480w, /p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook_hu_22630a9e41eaab22.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="211"
+		data-flex-basis="506px"
+	
+></p>
+<h2 id="twikoo管理">Twikoo管理
+</h2><p>参考链接：</p>
+<p><a class="link" href="https://thirdshire.com/twikoo-tutorial/#%e5%8f%af%e9%80%89%e9%85%8d%e7%bd%ae%e9%82%ae%e4%bb%b6%e9%80%9a%e7%9f%a5%e6%8f%90%e9%86%92gmail%e9%82%ae%e7%ae%b1%e7%a4%ba%e4%be%8b"  target="_blank" rel="noopener"
+    >在静态博客里添加Twikoo评论系统，并配置邮箱和TG通知</a></p>
+<p><a class="link" href="https://twikoo.js.org/quick-start.html"  target="_blank" rel="noopener"
+    >快速上手 | Twikoo 文档</a></p>
+
 </section>
 
 
@@ -608,7 +567,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/markdown/">Markdown</a>
+            <a href="/tags/hugo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/">Hugo博客美化</a>
         
     </section>
 
@@ -642,23 +601,47 @@
             
                 
 <article class="has-image">
-    <a href="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/">
+    <a href="/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/">
         
         
             <div class="article-image">
-                <img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.3400bd61de9399bf388ec776e96d5d94_hu_9b49a146a6e7ddd2.png" 
+                <img src="/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/image/liu.6c7ec1a4c1d830fb82b5840d6bd2ab56_hu_f37e93dcc4060cf7.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 【Hugo】Twikoo评论系统"
+                        alt="Featured image of post 【Hugo】主题个性化设置"
                         
-                        data-hash="md5-NAC9Yd6Tmb84jsd26W1dlA==">
+                        data-hash="md5-bH7BpMHYMPuCtYQNa9KrVg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">【Hugo】Twikoo评论系统</h2>
+            <h2 class="article-title">【Hugo】主题个性化设置</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+        
+        
+            <div class="article-image">
+                <img src="/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/fengmian.441babd75fded7783668294317051d21_hu_296a0acb8808e23c.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 【Hugo】Hugo &#43; Github 免费部署自己的博客"
+                        
+                        data-hash="md5-RBur11/e13g2aClDFwUdIQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">【Hugo】Hugo &#43; Github 免费部署自己的博客</h2>
         </div>
     </a>
 </article>
@@ -690,23 +673,23 @@
             
                 
 <article class="has-image">
-    <a href="/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/">
+    <a href="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/">
         
         
             <div class="article-image">
-                <img src="/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/image/liu.6c7ec1a4c1d830fb82b5840d6bd2ab56_hu_f37e93dcc4060cf7.jpg" 
+                <img src="/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.7d5ea63fd114eab16355ef8e4e5f88cb_hu_794ccbc51ad270f3.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 【Hugo】主题个性化设置"
+                        alt="Featured image of post 【MD】markdown博客常用语法"
                         
-                        data-hash="md5-bH7BpMHYMPuCtYQNa9KrVg==">
+                        data-hash="md5-fV6mP9EU6rFjVe&#43;OTl&#43;Iyw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">【Hugo】主题个性化设置</h2>
+            <h2 class="article-title">【MD】markdown博客常用语法</h2>
         </div>
     </a>
 </article>
@@ -731,30 +714,6 @@
 
         <div class="article-details">
             <h2 class="article-title">Template</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-        
-        
-            <div class="article-image">
-                <img src="/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/fengmian.441babd75fded7783668294317051d21_hu_296a0acb8808e23c.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 【Hugo】Hugo &#43; Github 免费部署自己的博客"
-                        
-                        data-hash="md5-RBur11/e13g2aClDFwUdIQ==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">【Hugo】Hugo &#43; Github 免费部署自己的博客</h2>
         </div>
     </a>
 </article>

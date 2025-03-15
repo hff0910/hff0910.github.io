@@ -73,7 +73,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">林梦飞</a></h1>
-            <h2 class="site-description">欢迎来到我的blog，搭建中</h2>
+            <h2 class="site-description">欢迎来到我的blog，让我们大闹一场吧</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -1145,6 +1145,30 @@
             
                 
 <article class="has-image">
+    <a href="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/">
+        
+        
+            <div class="article-image">
+                <img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.3400bd61de9399bf388ec776e96d5d94_hu_9b49a146a6e7ddd2.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 【Hugo】Twikoo评论系统"
+                        
+                        data-hash="md5-NAC9Yd6Tmb84jsd26W1dlA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">【Hugo】Twikoo评论系统</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/">
         
         
@@ -1246,53 +1270,50 @@
      
     
         
-    <script src="https://utteranc.es/client.js" 
-        repo=""
-        issue-term="pathname"
-        
-        label="utterances"
-        
-        crossorigin="anonymous"
-        async
-        >
-</script>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .utterances {
-        max-width: unset;
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
     }
-</style>
-
-<script>
-    let utterancesLoaded = false;
-
-    function setUtterancesTheme(theme) {
-        let utterances = document.querySelector('.utterances iframe');
-        if (utterances) {
-            utterances.contentWindow.postMessage(
-                {
-                    type: 'set-theme',
-                    theme: `github-${theme}`
-                },
-                'https://utteranc.es'
-            );
-        }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
     }
-
-    addEventListener('message', event => {
-        if (event.origin !== 'https://utteranc.es') return;
-
-        
-        utterancesLoaded = true;
-        setUtterancesTheme(document.documentElement.dataset.scheme)
-    });
-
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (!utterancesLoaded) return;
-        setUtterancesTheme(e.detail)
-    })
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/twikoo.mqdfei.top',
+        el: '#tcomment',})
 </script>
-
 
     
 
@@ -1302,12 +1323,12 @@
         
             2024 - 
         
-        2025 林梦飞-mqdfei
+        2025 林梦飞-mqdfei 禁止转载，如需引用，请注明文章链接
     </section>
     
     <section class="powerby">
         
-            hello <br/>
+            hello world <br/>
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
