@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/'>
 
-<link rel="stylesheet" href="/scss/style.min.4257323ca5327099e7a5be9b130219e72be3169d1e2fd6741cbdf6546307cc8d.css"><meta property='og:title' content="【软件】电脑软件推荐">
+<link rel="stylesheet" href="/scss/style.min.e3b4d36398a27d2e0d04164c167ace17ed8c8d8286f95d3687e6729c438f8b9a.css"><meta property='og:title' content="【软件】电脑软件推荐">
 <meta property='og:description' content="自己电脑必装的软件，包括一些可破解的软件和破解方法">
 <meta property='og:url' content='https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/'>
 <meta property='og:site_name' content='林梦飞'>
@@ -277,7 +277,150 @@
     </ol>
 </aside>
 
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+
+ 
+
+<button id="toggle-toc">Toc</button>
+
+<section class="widget archives" id="toc-container">
     
+    <h2 class="widget-title section-title">目录</h2>
+    
+
+    <div class="widget--toc">
+        
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#typora">Typora</a></li>
+    <li><a href="#哈哈哈哈哈">哈哈哈哈哈</a></li>
+  </ol>
+</nav>
+        
+    </div>
+</section>
+
+
+<style>
+    #mulu {
+        z-index: 9999;
+    }
+    
+    #toc-container {
+        display: none;
+         
+        position: fixed;
+         
+        bottom: 21%;
+         
+        right: 60px;
+         
+        background-color: var(--card-background);
+         
+        padding: 10px;
+         
+        border: 1px solid #96979a50;
+        border-radius: var(--card-border-radius);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+         
+        z-index: 9998 !important;
+         
+        max-height: 80vh;
+         
+        overflow-y: auto;
+         
+        width: auto;
+         
+        max-width: 290px;
+    }
+    
+    #toggle-toc {
+        position: fixed;
+        bottom: 22%;
+        right: 20px;
+        padding: 10px 10px;
+        z-index: 9998 !important;
+        border: 0px solid #96979a50;
+        border-radius: 7px;
+        box-shadow: var(--shadow-l1);
+        background-color: #00640010;
+        color: #34495e;
+         
+         
+        display: block;
+         
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+         
+    }
+    
+    .widget--toc #TableOfContents {
+        overflow-x: auto;
+        max-height: 66vh;
+        width: auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #toggle-toc {
+            bottom: 100px;
+        }
+    }
+</style>
+
+<script>
+    
+    var toggleButton = document.getElementById('toggle-toc');
+    var tocContainer = document.getElementById('toc-container');
+    var scrollThreshold = 0; 
+
+    
+    window.addEventListener('scroll', function() {
+        
+        var scrollY = window.scrollY || window.pageYOffset;
+
+        
+        if (scrollY >= scrollThreshold) {
+            
+            toggleButton.style.display = 'block';
+        } else {
+            
+            toggleButton.style.display = 'none';
+        }
+    });
+
+    
+    toggleButton.addEventListener('click', function() {
+        
+        if (tocContainer.style.display === 'none' || tocContainer.style.display === '') {
+            tocContainer.style.display = 'block';
+        } else {
+            tocContainer.style.display = 'none';
+        }
+    });
+    
+    toggleButton.addEventListener('mouseover', function() {
+        tocContainer.style.display = 'block';
+    });
+
+
+    
+    document.addEventListener('click', function(event) {
+        
+        if (!tocContainer.contains(event.target) && event.target !== toggleButton) {
+            
+            tocContainer.style.display = 'none';
+        }
+    });
+</script>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -297,14 +440,27 @@
 
     <div class="article-details">
     
-    <header class="article-category">
+    <div class="metadata-container">
         
-            <a href="/categories/%E6%95%99%E7%A8%8B/" style="background-color: #2a9d8f; color: #fff;">
-                教程
-            </a>
+        <header class="article-category">
+            
+                <a href="/categories/%E6%95%99%E7%A8%8B/" style="background-color: #2a9d8f; color: #fff;">
+                    教程
+                </a>
+            
+        </header>
         
-    </header>
-    
+
+         
+        <header class="article-tags">
+            
+                <a href="/tags/%E8%BD%AF%E4%BB%B6/" >
+                    #软件
+                </a>
+            
+        </header>
+        
+    </div>
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
@@ -318,6 +474,7 @@
         
     </div>
 
+    
     
     
     
@@ -349,7 +506,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -359,16 +516,20 @@
     
 </div>
 
+
 </header>
 
     <section class="article-content">
     
     
-    <p><strong>Typora破解</strong>
-找到安装目录下：resources\page-dist\static\js文件夹的<code>LicenseIndex.180dd4c7.4da8909c.chunk.js</code>文件用记事本打开
+    <h2 id="typora">Typora
+</h2><p><strong>Typora破解</strong><br>
+找到安装目录下：resources\page-dist\static\js文件夹的
+<code>LicenseIndex.180dd4c7.4da8909c.chunk.js</code>文件用记事本打开
 搜索到<code>e.hasActivated=&quot;true&quot;==e.hasActivated</code>
-改为<code>e.hasActivated=&quot;true&quot;==&quot;true&quot;</code></p>
-<p><strong>去除破解成功界面</strong>
+改为<code>e.hasActivated=&quot;true&quot;==&quot;true&quot;</code><br>
+哈哈哈</p>
+<p><strong>去除破解成功界面</strong><br>
 找到安装目录下：resources\page-dist文件夹的<code>license.html</code>文件用记事本打开
 在文末的<code>&lt;/html&gt;</code>前加上：
 <code>&lt;script&gt;setTimeout(function () {window.close()}, 10);&lt;/script&gt;</code></p>
@@ -384,6 +545,8 @@
 		data-flex-basis="1735px"
 	
 ></p>
+<h2 id="哈哈哈哈哈">哈哈哈哈哈
+</h2><p>红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
 
 </section>
 

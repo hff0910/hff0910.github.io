@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>林梦飞</title>
-        <link>https://mqdfei.top/</link>
-        <description>Recent content on 林梦飞</description>
+        <title>Hugo博客美化 on 林梦飞</title>
+        <link>https://mqdfei.top/tags/hugo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
+        <description>Recent content in Hugo博客美化 on 林梦飞</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei</copyright>
-        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>【软件】电脑软件推荐</title>
-        <link>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
-        <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/fengmiantu.png" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;h2 id=&#34;typora&#34;&gt;Typora
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Typora破解&lt;/strong&gt;&lt;br&gt;
-找到安装目录下：resources\page-dist\static\js文件夹的
-&lt;code&gt;LicenseIndex.180dd4c7.4da8909c.chunk.js&lt;/code&gt;文件用记事本打开
-搜索到&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==e.hasActivated&lt;/code&gt;
-改为&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==&amp;quot;true&amp;quot;&lt;/code&gt;&lt;br&gt;
-哈哈哈&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;去除破解成功界面&lt;/strong&gt;&lt;br&gt;
-找到安装目录下：resources\page-dist文件夹的&lt;code&gt;license.html&lt;/code&gt;文件用记事本打开
-在文末的&lt;code&gt;&amp;lt;/html&amp;gt;&lt;/code&gt;前加上：
-&lt;code&gt;&amp;lt;script&amp;gt;setTimeout(function () {window.close()}, 10);&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie.png&#34;
-	width=&#34;694&#34;
-	height=&#34;96&#34;
-	srcset=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie_hu_fb1e649b2ef72221.png 480w, https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie_hu_8b20ce0bc82b2643.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;722&#34;
-		data-flex-basis=&#34;1735px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;哈哈哈哈哈&#34;&gt;哈哈哈哈哈
-&lt;/h2&gt;&lt;p&gt;红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/tags/hugo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】主题个性化设置</title>
         <link>https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
@@ -1144,87 +1111,6 @@
 </description>
         </item>
         <item>
-        <title>【MD】markdown博客常用语法</title>
-        <link>https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</link>
-        <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg" alt="Featured image of post 【MD】markdown博客常用语法" /&gt;&lt;p&gt;&lt;strong&gt;md格式是近年来兴起的纯文本格式，主要用来写一些说明文档及Blog。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以下为写Blog常用的基础语法&lt;/p&gt;
-&lt;h2 id=&#34;基础语法&#34;&gt;基础语法
-&lt;/h2&gt;&lt;h3 id=&#34;字体&#34;&gt;字体
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;加粗&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在需要加粗的文字前后加**即可。例：**加粗** == &lt;strong&gt;加粗&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;斜体&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在需要倾斜的文字前后加*即可。例：*倾斜* == &lt;em&gt;倾斜&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;删除线&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在需要加删除线的文字前后加~~即可。例：~~倾斜~~ == &lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;标题&#34;&gt;标题
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一、二、三&amp;hellip;级标题&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;# 一号标题       ## 二号标题     ### 三号标题     以此类推，&lt;strong&gt;注意#和文字之间有一个空格&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;有序无序列表&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;有序列表&lt;/p&gt;
-&lt;p&gt;无序列表&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;插入附件&#34;&gt;插入附件
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;超链接&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：[显示的名字](需要跳转的链接)&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;插入图片&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：![显示的名字 可以空着](图片的名称)&lt;/p&gt;
-&lt;p&gt;这里的图片名称可以是url也可以是&lt;strong&gt;本地地址&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;若是本地地址时，需要把图片和md文档放在一个路径下。或是下层路径，书写格式为：/file/image.png&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;插入视频&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：{{&amp;lt; bilibili BV1bovfeaEtQ 1 &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;以Bilibili为例。&lt;/p&gt;
-&lt;p&gt;其中&lt;strong&gt;BV1bovfeaEtQ&lt;/strong&gt;为视频的bv号，数字&lt;strong&gt;1&lt;/strong&gt;当视频为多p视频时选择用&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;插入表格&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：|内容|内容|内容|&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;插入代码块&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：程序段前后加上~~~&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;插入引用&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;格式：&amp;gt;加空格&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;测试&#34;&gt;测试
-&lt;/h1&gt;</description>
-        </item>
-        <item>
         <title>【Hugo】Hugo &#43; Github 免费部署自己的博客</title>
         <link>https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
@@ -1781,90 +1667,6 @@
 &lt;/div&gt;&lt;h2 id=&#34;声明&#34;&gt;声明
 &lt;/h2&gt;&lt;p&gt;本文章借鉴&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%e5%85%8d%e8%b4%b9%e9%83%a8%e7%bd%b2%e8%87%aa%e5%b7%b1%e7%9a%84%e5%8d%9a%e5%ae%a2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;letere的文章&lt;/a&gt;，顶部有原作者Bilibili视频&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Template</title>
-        <link>https://mqdfei.top/p/template/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/p/template/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/template/image/liu.jpg" alt="Featured image of post Template" /&gt;&lt;h1 id=&#34;累了就休息休息完继续&#34;&gt;累了就休息，休息完继续
-&lt;/h1&gt;</description>
-        </item>
-        <item>
-        <title>归档</title>
-        <link>https://mqdfei.top/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>更新计划</title>
-        <link>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;文章相关&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章标签提到封面&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章目录去除自带序号&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加回顶部按钮&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;功能相关&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 评论功能（waline）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 音乐播放器&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在线粘贴板&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;细节&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 友链和技术连接双栏&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>技术链接</title>
-        <link>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;这是我的技术链接。当做网络收藏夹用，以便随时找到需要的网址，脱离浏览器书签的限制&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>每日必看</title>
-        <link>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8B/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8B/</guid>
-        <description>&lt;p&gt;每日学习及资讯网站&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://mqdfei.top/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>友链</title>
-        <link>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;这是我的好友链接。现在的数量为：4&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第一次做Blog，没去联系这几位Blog主人（太懒了）。所以只能算是单向好友，如果有什么侵权的地方可以联系改正。&lt;/p&gt;
 </description>
         </item>
         
