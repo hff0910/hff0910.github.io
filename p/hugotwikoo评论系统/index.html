@@ -509,7 +509,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -536,12 +536,40 @@
 <h2 id="配置mongodb">配置MongoDB
 </h2><p>推荐视频：<a class="link" href="https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=55815d0c08cf89a57380dc5335b007cf"  target="_blank" rel="noopener"
     >Twikoo Vercel 部署教程_哔哩哔哩_bilibili</a></p>
+<p>推荐文档：<a class="link" href="https://twikoo.js.org/mongodb-atlas.html"  target="_blank" rel="noopener"
+    > Twikoo 文档</a></p>
 <h2 id="云函数部署vercel">云函数部署（Vercel）
-</h2><p>这里到<code>Vercel Domains（包含 </code>https://<code>前缀，例如</code><a class="link" href="https://xxx.vercel.app"  target="_blank" rel="noopener"
+</h2><p><strong>Vercel部署需要有自己的域名</strong>
+到<code>Vercel Domains（包含 </code>https://<code>前缀，例如</code><a class="link" href="https://xxx.vercel.app"  target="_blank" rel="noopener"
     >https://xxx.vercel.app</a><code>）即为您的环境 id</code>这一步时，因为.app的域名需要翻墙，需要添加一个国内域名。参考视频：<a class="link" href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&amp;vd_source=55815d0c08cf89a57380dc5335b007cf"  target="_blank" rel="noopener"
-    >23.butterfly配置twikoo评论系统_哔哩哔哩_bilibili</a></p>
+    >用二级域名代替最后一步的https://xxx.vercel.app</a></p>
 <h2 id="hugo前端部署">Hugo前端部署
-</h2><p><img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook.png"
+</h2><p>修改<code>hugo.yaml</code>文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="w">    </span><span class="nt">comments</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l">twikoo	#修改评论服务为twikoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c">#...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">twikoo</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">envId</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://twikoo.mqdfei.top&#34;</span><span class="w">	</span><span class="c">#我的二级域名</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">region</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">path</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">lang</span><span class="p">:</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook.png"
 	width="819"
 	height="388"
 	srcset="/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook_hu_1f4cdf6b7af281df.png 480w, /p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoook_hu_22630a9e41eaab22.png 1024w"
@@ -554,7 +582,47 @@
 	
 ></p>
 <h2 id="twikoo管理">Twikoo管理
-</h2><p>参考链接：</p>
+</h2><p>点击右下角的蓝色齿轮进入管理界面，第一次可以设置管理密码（<strong>这个密码很重要</strong>）。</p>
+<p>常规设置可以随意外，以下设置比较重要：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">REQUIRED_FIELDS</span><span class="p">:</span><span class="w"> </span><span class="l">nick		#设置nick仅必填昵称，方便大家讨论发言</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">HIDE_ADMIN_CRYPT</span><span class="p">:</span><span class="w"> </span><span class="l">zhongyao	#面板小齿轮入口‘密码’。这个‘密码’也很重要，忘了进不来管理界面</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SHOW_UA</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">              </span><span class="c">#用户隐私，建议false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SHOW_REGION</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">          </span><span class="c">#用户隐私，建议false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SENDER_EMAIL</span><span class="p">:</span><span class="w"> </span><span class="m">123456</span>@<span class="l">qq.com</span><span class="w"> </span><span class="c">#示意；通知用户的邮箱地址，SENDER_EMAIL和SMTP_USER需一致</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SMTP_SERVICE</span><span class="p">:</span><span class="w"> </span><span class="l">QQ           </span><span class="w"> </span><span class="c">#示意；</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SMTP_USER</span><span class="p">:</span><span class="w"> </span><span class="m">123456</span>@<span class="l">qq.com   </span><span class="w"> </span><span class="c">#示意；通知用户的邮箱地址，SENDER_EMAIL和SMTP_USER需一致</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">SMTP_PASS</span><span class="p">:</span><span class="w"> </span><span class="l">xxxxx           </span><span class="w"> </span><span class="c">#邮件通知邮箱密码，QQ、163邮箱请填写授权码。</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>授权码需要去邮箱设置内开启，一般在设置-账户与安全内。</p>
+<p>设置完成后可以记得<strong>先保存</strong>，再使用“邮件通知测试”测试邮箱地址。</p>
+<p>参考链接：</p>
 <p><a class="link" href="https://thirdshire.com/twikoo-tutorial/#%e5%8f%af%e9%80%89%e9%85%8d%e7%bd%ae%e9%82%ae%e4%bb%b6%e9%80%9a%e7%9f%a5%e6%8f%90%e9%86%92gmail%e9%82%ae%e7%ae%b1%e7%a4%ba%e4%be%8b"  target="_blank" rel="noopener"
     >在静态博客里添加Twikoo评论系统，并配置邮箱和TG通知</a></p>
 <p><a class="link" href="https://twikoo.js.org/quick-start.html"  target="_blank" rel="noopener"
