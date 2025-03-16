@@ -14,7 +14,10 @@
         
         <guid>https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</guid>
         <description>&lt;img src="https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg" alt="Featured image of post 【MD】markdown博客常用语法" /&gt;&lt;p&gt;&lt;strong&gt;md格式是近年来兴起的纯文本格式，主要用来写一些说明文档及Blog。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以下为写Blog常用的基础语法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在下前面：&lt;/strong&gt;
+博客封面的图片尺寸：
+尺寸：240*135
+比例：16:9&lt;/p&gt;
 &lt;h2 id=&#34;基础语法&#34;&gt;基础语法
 &lt;/h2&gt;&lt;h3 id=&#34;字体&#34;&gt;字体
 &lt;/h3&gt;&lt;ul&gt;
@@ -85,8 +88,7 @@
 &lt;p&gt;格式：&amp;gt;加空格&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;测试&#34;&gt;测试
-&lt;/h1&gt;</description>
+</description>
         </item>
         
     </channel>

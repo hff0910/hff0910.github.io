@@ -1278,7 +1278,10 @@
         
         <guid>https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</guid>
         <description>&lt;img src="https://mqdfei.top/p/mdmarkdown%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/image/fengmian.jpg" alt="Featured image of post 【MD】markdown博客常用语法" /&gt;&lt;p&gt;&lt;strong&gt;md格式是近年来兴起的纯文本格式，主要用来写一些说明文档及Blog。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以下为写Blog常用的基础语法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在下前面：&lt;/strong&gt;
+博客封面的图片尺寸：
+尺寸：240*135
+比例：16:9&lt;/p&gt;
 &lt;h2 id=&#34;基础语法&#34;&gt;基础语法
 &lt;/h2&gt;&lt;h3 id=&#34;字体&#34;&gt;字体
 &lt;/h3&gt;&lt;ul&gt;
@@ -1349,8 +1352,7 @@
 &lt;p&gt;格式：&amp;gt;加空格&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;测试&#34;&gt;测试
-&lt;/h1&gt;</description>
+</description>
         </item>
         <item>
         <title>【Hugo】Hugo &#43; Github 免费部署自己的博客</title>
@@ -1910,15 +1912,6 @@
 &lt;/h2&gt;&lt;p&gt;本文章借鉴&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%e5%85%8d%e8%b4%b9%e9%83%a8%e7%bd%b2%e8%87%aa%e5%b7%b1%e7%9a%84%e5%8d%9a%e5%ae%a2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;letere的文章&lt;/a&gt;，顶部有原作者Bilibili视频&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Template</title>
-        <link>https://mqdfei.top/p/template/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://mqdfei.top/p/template/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/template/image/liu.jpg" alt="Featured image of post Template" /&gt;&lt;h1 id=&#34;累了就休息休息完继续&#34;&gt;累了就休息，休息完继续
-&lt;/h1&gt;</description>
         </item>
         
     </channel>
