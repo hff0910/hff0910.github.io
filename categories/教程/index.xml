@@ -127,14 +127,28 @@
 &lt;/h2&gt;&lt;h3 id=&#34;typora&#34;&gt;Typora
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://typoraio.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typora 官方中文站&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Typora破解&lt;/strong&gt;&lt;br&gt;
-找到安装目录下：resources\page-dist\static\js文件夹的
+&lt;h4 id=&#34;typora破解&#34;&gt;Typora破解
+&lt;/h4&gt;&lt;p&gt;找到安装目录下：resources\page-dist\static\js文件夹的
 &lt;code&gt;LicenseIndex.180dd4c7.4da8909c.chunk.js&lt;/code&gt;文件用记事本打开
 搜索到&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==e.hasActivated&lt;/code&gt;
-改为&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==&amp;quot;true&amp;quot;&lt;/code&gt;&lt;br&gt;
-哈哈哈&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;去除破解成功界面&lt;/strong&gt;&lt;br&gt;
-找到安装目录下：resources\page-dist文件夹的&lt;code&gt;license.html&lt;/code&gt;文件用记事本打开
+改为&lt;code&gt;e.hasActivated=&amp;quot;true&amp;quot;==&amp;quot;true&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;去除已激活界面&#34;&gt;去除已激活界面
+&lt;/h4&gt;&lt;p&gt;这一步我试了发现会弹错误窗口，所以我没有做这一步。（那感觉和之前没区别呃呃呃）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong.png&#34;
+	width=&#34;525&#34;
+	height=&#34;420&#34;
+	srcset=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong_hu_e80a859b1238ce4e.png 480w, https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong_hu_e627365e7c47a776.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;不去除已激活窗口&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;找到安装目录下：resources\page-dist文件夹的&lt;code&gt;license.html&lt;/code&gt;文件用记事本打开
 在文末的&lt;code&gt;&amp;lt;/html&amp;gt;&lt;/code&gt;前加上：
 &lt;code&gt;&amp;lt;script&amp;gt;setTimeout(function () {window.close()}, 10);&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie.png&#34;
@@ -149,11 +163,34 @@
 		data-flex-basis=&#34;1735px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;h4 id=&#34;去除左下角未激活&#34;&gt;去除左下角“未激活”
+&lt;/h4&gt;&lt;p&gt;找到resources\locales\zh-Hans.lproj\Panel.json文件&lt;/p&gt;
+&lt;p&gt;查找：&amp;ldquo;UNREGISTERED&amp;rdquo;:&amp;ldquo;未激活&amp;rdquo;，&lt;/p&gt;
+&lt;p&gt;替换为：&amp;ldquo;UNREGISTERED&amp;rdquo;:&amp;quot; &amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;完成&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;snipaste截图软件&#34;&gt;snipaste（截图软件）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.snipaste.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Snipaste&lt;/a&gt;官网咳咳&lt;/p&gt;
+&lt;h3 id=&#34;potplayer视频播放器&#34;&gt;PotPlayer（视频播放器）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.potplayercn.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PotPlayer中文网 - 万能格式影音视频播放器 PotPlayer播放器 PotPlayer官网&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;watt-toolkit加速&#34;&gt;watt toolkit（加速）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://steampp.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;瓦特工具箱(Steam++官网) - Watt Toolkit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我一般用来上github和steam&lt;/p&gt;
 &lt;h2 id=&#34;浏览器插件&#34;&gt;浏览器插件
-&lt;/h2&gt;&lt;h3 id=&#34;篡改猴&#34;&gt;篡改猴
-&lt;/h3&gt;&lt;h3 id=&#34;火山翻译&#34;&gt;火山翻译
-&lt;/h3&gt;&lt;h3 id=&#34;itab标签页&#34;&gt;iTab标签页
-&lt;/h3&gt;</description>
+&lt;/h2&gt;&lt;p&gt;edge浏览器都可以在&lt;a class=&#34;link&#34; href=&#34;https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Edge 加载项&lt;/a&gt;内获取。现在转用微软浏览器了，插件、内置语音朗读、便捷登录同步书签比geogle也不差了。&lt;/p&gt;
+&lt;h3 id=&#34;篡改猴&#34;&gt;篡改猴
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tampermonkey.net/index.php?locale=zh_CN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;首页 | Tampermonkey&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;火山翻译&#34;&gt;火山翻译
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://microsoftedge.microsoft.com/addons/detail/%e7%81%ab%e5%b1%b1%e7%bf%bb%e8%af%91-%e5%88%92%e8%af%8d%e5%92%8c%e7%bd%91%e9%a1%b5%e7%bf%bb%e8%af%91/jmnhemdajboodicneejdlpanmijclhef&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;火山翻译 - 划词和网页翻译 - Microsoft Edge Addons&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;itab标签页&#34;&gt;iTab标签页
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://microsoftedge.microsoft.com/addons/detail/itab%e6%96%b0%e6%a0%87%e7%ad%be%e9%a1%b5/inedkoakiaeepjoblbiiipedngonadhn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iTab新标签页 - Microsoft Edge Addons&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>【Hugo】主题个性化设置</title>

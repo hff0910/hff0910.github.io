@@ -297,7 +297,16 @@
   <ol>
     <li><a href="#破解软件">破解软件</a>
       <ol>
-        <li><a href="#typora">Typora</a></li>
+        <li><a href="#typora">Typora</a>
+          <ol>
+            <li><a href="#typora破解">Typora破解</a></li>
+            <li><a href="#去除已激活界面">去除已激活界面</a></li>
+            <li><a href="#去除左下角未激活">去除左下角“未激活”</a></li>
+          </ol>
+        </li>
+        <li><a href="#snipaste截图软件">snipaste（截图软件）</a></li>
+        <li><a href="#potplayer视频播放器">PotPlayer（视频播放器）</a></li>
+        <li><a href="#watt-toolkit加速">watt toolkit（加速）</a></li>
       </ol>
     </li>
     <li><a href="#浏览器插件">浏览器插件</a>
@@ -516,7 +525,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -536,14 +545,28 @@
 </h2><h3 id="typora">Typora
 </h3><p><a class="link" href="https://typoraio.cn/"  target="_blank" rel="noopener"
     >Typora 官方中文站</a></p>
-<p><strong>Typora破解</strong><br>
-找到安装目录下：resources\page-dist\static\js文件夹的
+<h4 id="typora破解">Typora破解
+</h4><p>找到安装目录下：resources\page-dist\static\js文件夹的
 <code>LicenseIndex.180dd4c7.4da8909c.chunk.js</code>文件用记事本打开
 搜索到<code>e.hasActivated=&quot;true&quot;==e.hasActivated</code>
-改为<code>e.hasActivated=&quot;true&quot;==&quot;true&quot;</code><br>
-哈哈哈</p>
-<p><strong>去除破解成功界面</strong><br>
-找到安装目录下：resources\page-dist文件夹的<code>license.html</code>文件用记事本打开
+改为<code>e.hasActivated=&quot;true&quot;==&quot;true&quot;</code></p>
+<h4 id="去除已激活界面">去除已激活界面
+</h4><p>这一步我试了发现会弹错误窗口，所以我没有做这一步。（那感觉和之前没区别呃呃呃）</p>
+<p><img src="/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong.png"
+	width="525"
+	height="420"
+	srcset="/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong_hu_e80a859b1238ce4e.png 480w, /p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/chenggong_hu_e627365e7c47a776.png 1024w"
+	loading="lazy"
+	
+		alt="不去除已激活窗口"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="125"
+		data-flex-basis="300px"
+	
+></p>
+<p>找到安装目录下：resources\page-dist文件夹的<code>license.html</code>文件用记事本打开
 在文末的<code>&lt;/html&gt;</code>前加上：
 <code>&lt;script&gt;setTimeout(function () {window.close()}, 10);&lt;/script&gt;</code></p>
 <p><img src="/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/pojie.png"
@@ -558,11 +581,34 @@
 		data-flex-basis="1735px"
 	
 ></p>
+<h4 id="去除左下角未激活">去除左下角“未激活”
+</h4><p>找到resources\locales\zh-Hans.lproj\Panel.json文件</p>
+<p>查找：&ldquo;UNREGISTERED&rdquo;:&ldquo;未激活&rdquo;，</p>
+<p>替换为：&ldquo;UNREGISTERED&rdquo;:&quot; &quot;</p>
+<p><strong>完成</strong></p>
+<h3 id="snipaste截图软件">snipaste（截图软件）
+</h3><p><a class="link" href="https://www.snipaste.com/"  target="_blank" rel="noopener"
+    >Snipaste</a>官网咳咳</p>
+<h3 id="potplayer视频播放器">PotPlayer（视频播放器）
+</h3><p><a class="link" href="http://www.potplayercn.com/"  target="_blank" rel="noopener"
+    >PotPlayer中文网 - 万能格式影音视频播放器 PotPlayer播放器 PotPlayer官网</a></p>
+<h3 id="watt-toolkit加速">watt toolkit（加速）
+</h3><p><a class="link" href="https://steampp.net/"  target="_blank" rel="noopener"
+    >瓦特工具箱(Steam++官网) - Watt Toolkit</a></p>
+<p>我一般用来上github和steam</p>
 <h2 id="浏览器插件">浏览器插件
-</h2><h3 id="篡改猴">篡改猴
-</h3><h3 id="火山翻译">火山翻译
-</h3><h3 id="itab标签页">iTab标签页
-</h3>
+</h2><p>edge浏览器都可以在<a class="link" href="https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home"  target="_blank" rel="noopener"
+    >Microsoft Edge 加载项</a>内获取。现在转用微软浏览器了，插件、内置语音朗读、便捷登录同步书签比geogle也不差了。</p>
+<h3 id="篡改猴">篡改猴
+</h3><p><a class="link" href="https://www.tampermonkey.net/index.php?locale=zh_CN"  target="_blank" rel="noopener"
+    >首页 | Tampermonkey</a></p>
+<h3 id="火山翻译">火山翻译
+</h3><p><a class="link" href="https://microsoftedge.microsoft.com/addons/detail/%e7%81%ab%e5%b1%b1%e7%bf%bb%e8%af%91-%e5%88%92%e8%af%8d%e5%92%8c%e7%bd%91%e9%a1%b5%e7%bf%bb%e8%af%91/jmnhemdajboodicneejdlpanmijclhef"  target="_blank" rel="noopener"
+    >火山翻译 - 划词和网页翻译 - Microsoft Edge Addons</a></p>
+<h3 id="itab标签页">iTab标签页
+</h3><p><a class="link" href="https://microsoftedge.microsoft.com/addons/detail/itab%e6%96%b0%e6%a0%87%e7%ad%be%e9%a1%b5/inedkoakiaeepjoblbiiipedngonadhn"  target="_blank" rel="noopener"
+    >iTab新标签页 - Microsoft Edge Addons</a></p>
+
 </section>
 
 
