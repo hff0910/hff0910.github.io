@@ -128,7 +128,7 @@
     &gt;stack官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下所有修改操作请养成备份的习惯&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一调试&#34;&gt;一、调试
+&lt;h2 id=&#34;1调试&#34;&gt;1.调试
 &lt;/h2&gt;&lt;p&gt;部署到github上反复调试太过麻烦，可以使用以下方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在blog主目录唤起CMD调试窗口&lt;br&gt;
@@ -159,7 +159,7 @@
 &gt;&lt;/li&gt;
 &lt;li&gt;在hugo.yaml中更新的内容保存后，在&lt;code&gt;http://localhost:1313/&lt;/code&gt;网页会立刻显现。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一主页功能&#34;&gt;一、主页功能
+&lt;h2 id=&#34;2主页功能&#34;&gt;2.主页功能
 &lt;/h2&gt;&lt;h3 id=&#34;中英文&#34;&gt;中英文
 &lt;/h3&gt;&lt;p&gt;&lt;code&gt;DefaultContentLanguage&lt;/code&gt;：博客默认语言。设置为：&lt;code&gt;zh-cn&lt;/code&gt;&lt;br&gt;
 将&lt;code&gt;languages&lt;/code&gt;下除&lt;code&gt;zh-cn&lt;/code&gt;的语言删除&lt;/p&gt;
@@ -187,7 +187,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;一单页文章数&#34;&gt;一、单页文章数
+&lt;h3 id=&#34;单页文章数&#34;&gt;单页文章数
 &lt;/h3&gt;&lt;p&gt;搜索&lt;code&gt;pagerSize&lt;/code&gt;，修改数量即可&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -201,7 +201,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pagerSize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;一头像站名简介&#34;&gt;一、头像、站名、简介
+&lt;/div&gt;&lt;h3 id=&#34;头像站名简介&#34;&gt;头像、站名、简介
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -228,7 +228,7 @@
 &lt;li&gt;本地路径：&lt;strong&gt;请把图片放在站点根目录的 &lt;code&gt;assets/img&lt;/code&gt; 文件夹下&lt;/strong&gt;。 例如 &lt;code&gt;assets/img/avatar.jng&lt;/code&gt;, 并填入 &lt;code&gt;img/avatar.jng&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;图片最大支持150*150&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;一网站图标&#34;&gt;一、网站图标
+&lt;h3 id=&#34;网站图标&#34;&gt;网站图标
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -266,7 +266,7 @@
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;favicon&lt;/code&gt;存放ico图像，可以去网上找一个。存放在主目录的&lt;code&gt;static&lt;/code&gt;文件夹下&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;一社交链接&#34;&gt;一、社交链接
+&lt;h3 id=&#34;社交链接&#34;&gt;社交链接
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -290,7 +290,7 @@
 &lt;li&gt;icons文件可以直接从这里下载：&lt;a class=&#34;link&#34; href=&#34;https://tabler.io/icons&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Tabler Icons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一修改背景色&#34;&gt;一、修改背景色
+&lt;h2 id=&#34;3修改背景色&#34;&gt;3.修改背景色
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;修改&lt;strong&gt;主题文件夹下&lt;/strong&gt;&lt;code&gt;assets/scss/variables.scss&lt;/code&gt;文件&lt;/li&gt;
 &lt;/ul&gt;
@@ -353,7 +353,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;na&#34;&gt;--card-background-selected&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#eaeaea&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;一友链归档多列显示&#34;&gt;一、友链、归档多列显示
+&lt;/div&gt;&lt;h2 id=&#34;4友链归档多列显示&#34;&gt;4.友链、归档多列显示
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;修改&lt;strong&gt;主题文件夹下&lt;/strong&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;文件(不存在则自行创建)，引入以下css样式代码
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -402,7 +402,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一添加回到顶部按钮&#34;&gt;一、添加“回到顶部”按钮
+&lt;h2 id=&#34;5添加回到顶部按钮&#34;&gt;5.添加“回到顶部”按钮
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;准备一张&lt;a class=&#34;link&#34; href=&#34;image/backTop.svg&#34; &gt;&lt;strong&gt;回到顶部&lt;/strong&gt;&lt;/a&gt;（&lt;strong&gt;右键另存&lt;/strong&gt;）的图片，放到&lt;code&gt;assets/icons&lt;/code&gt;文件夹下(不存在则自行创建)&lt;/p&gt;
@@ -511,7 +511,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一代码块折叠按钮&#34;&gt;一、代码块折叠按钮
+&lt;h2 id=&#34;6代码块折叠按钮&#34;&gt;6.代码块折叠按钮
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;准备一张&lt;a class=&#34;link&#34; href=&#34;image/codeMore.png&#34; &gt;&lt;strong&gt;向下展开图片&lt;/strong&gt;&lt;/a&gt;(&lt;strong&gt;右键另存&lt;/strong&gt;)，放到&lt;code&gt;assets/icons&lt;/code&gt;目录下&lt;/p&gt;
@@ -686,7 +686,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一隐藏目录&#34;&gt;一、隐藏目录
+&lt;h2 id=&#34;7隐藏目录&#34;&gt;7.隐藏目录
 &lt;/h2&gt;&lt;p&gt;将以下代码复制到&lt;strong&gt;主题文件夹下&lt;/strong&gt;&lt;code&gt;layouts\partials\widget\toc.html&lt;/code&gt;替换原有代码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -952,7 +952,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;一目录去序号&#34;&gt;一、目录去序号
+&lt;/div&gt;&lt;h2 id=&#34;8目录去序号&#34;&gt;8.目录去序号
 &lt;/h2&gt;&lt;p&gt;在themes\hugo-theme-stack\assets\scss\custom.scss内添加以下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1012,7 +1012,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;一标签提到文章前&#34;&gt;一、标签提到文章前
+&lt;/div&gt;&lt;h2 id=&#34;9标签提到文章前&#34;&gt;9.标签提到文章前
 &lt;/h2&gt;&lt;p&gt;在&lt;code&gt;layouts\partials\article\components\details.html&lt;/code&gt;修改（注意位置，不然页面会乱）：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1143,7 +1143,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;一菜单栏&#34;&gt;一、菜单栏
+&lt;/div&gt;&lt;h2 id=&#34;10菜单栏&#34;&gt;10.菜单栏
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;下面的方法应该是不对的，但是能用一下。&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1216,7 +1216,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;一评论功能&#34;&gt;一、评论功能
+&lt;h2 id=&#34;11评论功能&#34;&gt;11.评论功能
 &lt;/h2&gt;&lt;p&gt;目前采用&lt;code&gt;utterances&lt;/code&gt;评论系统，但是这个评论需要登录github不太方便。&lt;/p&gt;
 &lt;p&gt;找到了&lt;code&gt;waline&lt;/code&gt;评论系统，但是我很菜还没整明白。下面是&lt;code&gt;waline&lt;/code&gt;的界面，我看到的大部分blog都是采用这种评论。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/image/waline.png&#34;
@@ -1231,7 +1231,7 @@
 		data-flex-basis=&#34;960px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;一统计功能unami&#34;&gt;一、统计功能（unami）
+&lt;h2 id=&#34;12统计功能unami&#34;&gt;12.统计功能（unami）
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/?ref=irithys.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;unami&lt;/a&gt;官网在这里，注册并添加自己的域名。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugo%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE/image/unami2.png&#34;
@@ -1287,7 +1287,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;我还不知道怎么把这个数据应用到自己的博客上，只能登录unami的网站看访问数据。&lt;/p&gt;
-&lt;h2 id=&#34;一文章功能完善&#34;&gt;一、文章功能完善
+&lt;h2 id=&#34;13文章功能完善&#34;&gt;13.文章功能完善
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;del&gt;&lt;strong&gt;完成&lt;/strong&gt; 目录去序列号&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
