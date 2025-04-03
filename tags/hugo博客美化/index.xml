@@ -13,7 +13,7 @@
         <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png" alt="Featured image of post 【Hugo】Twikoo评论系统" /&gt;&lt;h2 id=&#34;为什么选择twikoo&#34;&gt;为什么选择Twikoo
+        <description>&lt;img src="https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png" alt="Featured image of post 【Hugo】Twikoo评论系统" /&gt;&lt;h2 id=&#34;1为什么选择twikoo&#34;&gt;1.为什么选择Twikoo
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;开源，免费，轻量无广告（吊打Disqus等一众评论服务）&lt;/li&gt;
 &lt;li&gt;匿名性好，不需要强制社交账号登录（重要‼️）&lt;/li&gt;
@@ -21,17 +21,17 @@
 &lt;li&gt;游客若留下邮箱，评论被回复时可收到邮件提醒（cusdis不支持）&lt;/li&gt;
 &lt;li&gt;数据支持导入导出&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;配置mongodb&#34;&gt;配置MongoDB
+&lt;h2 id=&#34;2配置mongodb&#34;&gt;2.配置MongoDB
 &lt;/h2&gt;&lt;p&gt;推荐视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=55815d0c08cf89a57380dc5335b007cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Twikoo Vercel 部署教程_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;推荐文档：&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org/mongodb-atlas.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt; Twikoo 文档&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;云函数部署vercel&#34;&gt;云函数部署（Vercel）
+&lt;h2 id=&#34;3云函数部署vercel&#34;&gt;3.云函数部署（Vercel）
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Vercel部署需要有自己的域名&lt;/strong&gt;
 到&lt;code&gt;Vercel Domains（包含 &lt;/code&gt;https://&lt;code&gt;前缀，例如&lt;/code&gt;&lt;a class=&#34;link&#34; href=&#34;https://xxx.vercel.app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://xxx.vercel.app&lt;/a&gt;&lt;code&gt;）即为您的环境 id&lt;/code&gt;这一步时，因为.app的域名需要翻墙，需要添加一个国内域名。参考视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=55815d0c08cf89a57380dc5335b007cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;用二级域名代替最后一步的https://xxx.vercel.app&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;hugo前端部署&#34;&gt;Hugo前端部署
+&lt;h2 id=&#34;4hugo前端部署&#34;&gt;4.Hugo前端部署
 &lt;/h2&gt;&lt;p&gt;修改&lt;code&gt;hugo.yaml&lt;/code&gt;文件：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -69,7 +69,7 @@
 		data-flex-basis=&#34;506px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;twikoo管理&#34;&gt;Twikoo管理
+&lt;h2 id=&#34;5twikoo管理&#34;&gt;5.Twikoo管理
 &lt;/h2&gt;&lt;p&gt;点击右下角的蓝色齿轮进入管理界面，第一次可以设置管理密码（&lt;strong&gt;这个密码很重要&lt;/strong&gt;）。&lt;/p&gt;
 &lt;p&gt;常规设置可以随意外，以下设置比较重要：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1319,8 +1319,8 @@
     &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;1环境准备&#34;&gt;1环境准备
-&lt;/h2&gt;&lt;h3 id=&#34;11git下载&#34;&gt;1.1Git下载
+&lt;h2 id=&#34;1环境准备&#34;&gt;1.环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;git下载&#34;&gt;Git下载
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1345,7 +1345,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;12hugo下载&#34;&gt;1.2Hugo下载
+&lt;h3 id=&#34;hugo下载&#34;&gt;Hugo下载
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/tags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1370,8 +1370,8 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;2搭建博客&#34;&gt;2搭建博客
-&lt;/h2&gt;&lt;h3 id=&#34;21创建博客&#34;&gt;2.1创建博客
+&lt;h2 id=&#34;2搭建博客&#34;&gt;2.搭建博客
+&lt;/h2&gt;&lt;h3 id=&#34;创建博客&#34;&gt;创建博客
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;解压上一步下载的&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;并复制&lt;strong&gt;hugo.exe&lt;/strong&gt;到自己要建立Blog的文件夹下。以我这里实例为&lt;strong&gt;F:\blog&lt;/strong&gt;&lt;/p&gt;
@@ -1450,7 +1450,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;22配置主题&#34;&gt;2.2配置主题
+&lt;h3 id=&#34;配置主题&#34;&gt;配置主题
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【[Hugo Themes](&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1565,8 +1565,8 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;3github部署&#34;&gt;3Github部署
-&lt;/h2&gt;&lt;h3 id=&#34;31常规部署&#34;&gt;3.1常规部署
+&lt;h2 id=&#34;3github部署&#34;&gt;3.Github部署
+&lt;/h2&gt;&lt;h3 id=&#34;常规部署&#34;&gt;常规部署
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1641,7 +1641,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;32github-action自动部署&#34;&gt;3.2Github Action自动部署
+&lt;h3 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Github创建一个新的仓库，用于存放Hugo的主文件&lt;/p&gt;
@@ -1826,7 +1826,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;33完成啦&#34;&gt;3.3完成啦
+&lt;h3 id=&#34;完成啦&#34;&gt;完成啦
 &lt;/h3&gt;&lt;p&gt;文章可以直接在&lt;code&gt;content/post&lt;/code&gt;目录下建立&lt;/p&gt;
 &lt;p&gt;当你修改文件后想要同步到github并自动部署可以输入以下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

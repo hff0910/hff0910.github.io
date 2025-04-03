@@ -13,7 +13,7 @@
         <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png" alt="Featured image of post 【Hugo】Twikoo评论系统" /&gt;&lt;h2 id=&#34;为什么选择twikoo&#34;&gt;为什么选择Twikoo
+        <description>&lt;img src="https://mqdfei.top/p/hugotwikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/image/twikoo.png" alt="Featured image of post 【Hugo】Twikoo评论系统" /&gt;&lt;h2 id=&#34;1为什么选择twikoo&#34;&gt;1.为什么选择Twikoo
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;开源，免费，轻量无广告（吊打Disqus等一众评论服务）&lt;/li&gt;
 &lt;li&gt;匿名性好，不需要强制社交账号登录（重要‼️）&lt;/li&gt;
@@ -21,17 +21,17 @@
 &lt;li&gt;游客若留下邮箱，评论被回复时可收到邮件提醒（cusdis不支持）&lt;/li&gt;
 &lt;li&gt;数据支持导入导出&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;配置mongodb&#34;&gt;配置MongoDB
+&lt;h2 id=&#34;2配置mongodb&#34;&gt;2.配置MongoDB
 &lt;/h2&gt;&lt;p&gt;推荐视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=55815d0c08cf89a57380dc5335b007cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Twikoo Vercel 部署教程_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;推荐文档：&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org/mongodb-atlas.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt; Twikoo 文档&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;云函数部署vercel&#34;&gt;云函数部署（Vercel）
+&lt;h2 id=&#34;3云函数部署vercel&#34;&gt;3.云函数部署（Vercel）
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Vercel部署需要有自己的域名&lt;/strong&gt;
 到&lt;code&gt;Vercel Domains（包含 &lt;/code&gt;https://&lt;code&gt;前缀，例如&lt;/code&gt;&lt;a class=&#34;link&#34; href=&#34;https://xxx.vercel.app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://xxx.vercel.app&lt;/a&gt;&lt;code&gt;）即为您的环境 id&lt;/code&gt;这一步时，因为.app的域名需要翻墙，需要添加一个国内域名。参考视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=55815d0c08cf89a57380dc5335b007cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;用二级域名代替最后一步的https://xxx.vercel.app&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;hugo前端部署&#34;&gt;Hugo前端部署
+&lt;h2 id=&#34;4hugo前端部署&#34;&gt;4.Hugo前端部署
 &lt;/h2&gt;&lt;p&gt;修改&lt;code&gt;hugo.yaml&lt;/code&gt;文件：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -69,7 +69,7 @@
 		data-flex-basis=&#34;506px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;twikoo管理&#34;&gt;Twikoo管理
+&lt;h2 id=&#34;5twikoo管理&#34;&gt;5.Twikoo管理
 &lt;/h2&gt;&lt;p&gt;点击右下角的蓝色齿轮进入管理界面，第一次可以设置管理密码（&lt;strong&gt;这个密码很重要&lt;/strong&gt;）。&lt;/p&gt;
 &lt;p&gt;常规设置可以随意外，以下设置比较重要：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -123,7 +123,7 @@
         <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
-        <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/fengmiantu.png" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;h2 id=&#34;破解软件&#34;&gt;破解软件
+        <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/image/fengmiantu.png" alt="Featured image of post 【软件】电脑软件推荐" /&gt;&lt;h2 id=&#34;1破解软件&#34;&gt;1.破解软件
 &lt;/h2&gt;&lt;h3 id=&#34;typora&#34;&gt;Typora
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://typoraio.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typora 官方中文站&lt;/a&gt;&lt;/p&gt;
@@ -178,7 +178,7 @@
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://steampp.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;瓦特工具箱(Steam++官网) - Watt Toolkit&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我一般用来上github和steam&lt;/p&gt;
-&lt;h2 id=&#34;浏览器插件&#34;&gt;浏览器插件
+&lt;h2 id=&#34;2浏览器插件&#34;&gt;2.浏览器插件
 &lt;/h2&gt;&lt;p&gt;edge浏览器都可以在&lt;a class=&#34;link&#34; href=&#34;https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Microsoft Edge 加载项&lt;/a&gt;内获取。现在转用微软浏览器了，插件、内置语音朗读、便捷登录同步书签比geogle也不差了。&lt;/p&gt;
 &lt;h3 id=&#34;篡改猴&#34;&gt;篡改猴
@@ -199,9 +199,10 @@
         
         <guid>https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/</guid>
         <description>&lt;img src="https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/fengmian.jpg" alt="Featured image of post 【软件】在线音乐软件" /&gt;&lt;h2 id=&#34;音乐网站&#34;&gt;音乐网站
-&lt;/h2&gt;&lt;h3 id=&#34;音乐盒子&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://music.immm.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;音乐盒子&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：无法搜索音乐，相当于一个在线歌单。都是一些耳熟能详的歌。&lt;/p&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;1音乐盒子&#34;&gt;1.音乐盒子
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://music.immm.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;音乐盒子&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：无法搜索音乐，相当于一个在线歌单。都是一些耳熟能详的歌。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/immm.png&#34;
 	width=&#34;1283&#34;
 	height=&#34;873&#34;
@@ -214,9 +215,10 @@
 		data-flex-basis=&#34;352px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;在线音乐派对&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://music.alang.run&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;在线音乐派对&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：宝藏网站。相当于在线yy语音了，开房间能点歌能聊天。我为了一首下架的善变找到了这些网站。非常敬佩网站作者，以后之前了一定充一个永久的房间。哈哈哈哈。目前认为唯一的缺点应该就是不能拉进度条吧但是并不影响。&lt;/p&gt;
+&lt;h3 id=&#34;在线音乐派对&#34;&gt;在线音乐派对
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://music.alang.run&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;在线音乐派对&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：宝藏网站。相当于在线yy语音了，开房间能点歌能聊天。我为了一首下架的善变找到了这些网站。非常敬佩网站作者，以后之前了一定充一个永久的房间。哈哈哈哈。目前认为唯一的缺点应该就是不能拉进度条吧但是并不影响。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/alang.png&#34;
 	width=&#34;1863&#34;
 	height=&#34;782&#34;
@@ -229,9 +231,10 @@
 		data-flex-basis=&#34;571px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;听哇轻音乐网&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.itingwa.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;听哇轻音乐网&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;这里就想吐槽下哪些有名的音乐软件，不登录听个歌都听不了（做事时真不敢碰手机了）。&lt;/p&gt;
+&lt;h3 id=&#34;3听哇轻音乐网&#34;&gt;3.听哇轻音乐网
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.itingwa.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;听哇轻音乐网&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里就想吐槽下哪些有名的音乐软件，不登录听个歌都听不了（做事时真不敢碰手机了）。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：比较专业的一个音乐网站，分类、排行、电台挺全的。轻音乐、纯音乐、白噪音资源丰富。附带&lt;strong&gt;定时关闭&lt;/strong&gt;功能，避免彻夜播放&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/itingwa.png&#34;
 	width=&#34;1038&#34;
@@ -245,9 +248,10 @@
 		data-flex-basis=&#34;266px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;青音悦俱乐部&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://qingyinyue.club/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;青音悦俱乐部&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：和第一个网站类似，特色是轻音乐，个人网站支持一波。可以是猎奇的好去处。&lt;/p&gt;
+&lt;h3 id=&#34;4青音悦俱乐部&#34;&gt;4.青音悦俱乐部
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://qingyinyue.club/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;青音悦俱乐部&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：和第一个网站类似，特色是轻音乐，个人网站支持一波。可以是猎奇的好去处。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/qingyinyue.png&#34;
 	width=&#34;1599&#34;
 	height=&#34;922&#34;
@@ -260,9 +264,10 @@
 		data-flex-basis=&#34;416px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;歌曲宝&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gequbao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;歌曲宝&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：支持全网音乐搜索下载，支持试听和多格式到处（MP3、ACC）。还有歌单打包下载，让我想起了用MP3的时候。&lt;/p&gt;
+&lt;h3 id=&#34;5歌曲宝&#34;&gt;5.歌曲宝
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gequbao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;歌曲宝&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：支持全网音乐搜索下载，支持试听和多格式到处（MP3、ACC）。还有歌单打包下载，让我想起了用MP3的时候。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/gequbao.png&#34;
 	width=&#34;934&#34;
 	height=&#34;929&#34;
@@ -275,9 +280,10 @@
 		data-flex-basis=&#34;241px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;acg音乐库&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.acgjc.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;ACG音乐库&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：二次元爱好者专属，收录动漫OP/ED、游戏原声、同人音乐。下载要登录&lt;/p&gt;
+&lt;h3 id=&#34;6acg音乐库&#34;&gt;6.ACG音乐库
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.acgjc.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ACG音乐库&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：二次元爱好者专属，收录动漫OP/ED、游戏原声、同人音乐。下载要登录&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/acgjc.png&#34;
 	width=&#34;1278&#34;
 	height=&#34;911&#34;
@@ -290,9 +296,10 @@
 		data-flex-basis=&#34;336px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;uzz音乐&#34;&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://m.uzz.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;UZZ音乐&lt;/a&gt;&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：界面简洁加分，支持搜歌，滚动歌词。部分歌曲因版权限制仅支持试听片段。&lt;/p&gt;
+&lt;h3 id=&#34;7uzz音乐&#34;&gt;7.UZZ音乐
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://m.uzz.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UZZ音乐&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优劣&lt;/strong&gt;：界面简洁加分，支持搜歌，滚动歌词。部分歌曲因版权限制仅支持试听片段。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/%E8%BD%AF%E4%BB%B6%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/image/uzz.png&#34;
 	width=&#34;1609&#34;
 	height=&#34;913&#34;
@@ -1506,7 +1513,7 @@
 博客封面的图片尺寸：
 尺寸：240*135
 比例：16:9&lt;/p&gt;
-&lt;h2 id=&#34;基础语法&#34;&gt;基础语法
+&lt;h2 id=&#34;1基础语法&#34;&gt;1.基础语法
 &lt;/h2&gt;&lt;h3 id=&#34;字体&#34;&gt;字体
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -1604,8 +1611,8 @@
     &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;1环境准备&#34;&gt;1环境准备
-&lt;/h2&gt;&lt;h3 id=&#34;11git下载&#34;&gt;1.1Git下载
+&lt;h2 id=&#34;1环境准备&#34;&gt;1.环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;git下载&#34;&gt;Git下载
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1630,7 +1637,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;12hugo下载&#34;&gt;1.2Hugo下载
+&lt;h3 id=&#34;hugo下载&#34;&gt;Hugo下载
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/tags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1655,8 +1662,8 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;2搭建博客&#34;&gt;2搭建博客
-&lt;/h2&gt;&lt;h3 id=&#34;21创建博客&#34;&gt;2.1创建博客
+&lt;h2 id=&#34;2搭建博客&#34;&gt;2.搭建博客
+&lt;/h2&gt;&lt;h3 id=&#34;创建博客&#34;&gt;创建博客
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;解压上一步下载的&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;并复制&lt;strong&gt;hugo.exe&lt;/strong&gt;到自己要建立Blog的文件夹下。以我这里实例为&lt;strong&gt;F:\blog&lt;/strong&gt;&lt;/p&gt;
@@ -1735,7 +1742,7 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;22配置主题&#34;&gt;2.2配置主题
+&lt;h3 id=&#34;配置主题&#34;&gt;配置主题
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【[Hugo Themes](&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1850,8 +1857,8 @@
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;3github部署&#34;&gt;3Github部署
-&lt;/h2&gt;&lt;h3 id=&#34;31常规部署&#34;&gt;3.1常规部署
+&lt;h2 id=&#34;3github部署&#34;&gt;3.Github部署
+&lt;/h2&gt;&lt;h3 id=&#34;常规部署&#34;&gt;常规部署
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;前往【&lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1926,7 +1933,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;32github-action自动部署&#34;&gt;3.2Github Action自动部署
+&lt;h3 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Github创建一个新的仓库，用于存放Hugo的主文件&lt;/p&gt;
@@ -2111,7 +2118,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;33完成啦&#34;&gt;3.3完成啦
+&lt;h3 id=&#34;完成啦&#34;&gt;完成啦
 &lt;/h3&gt;&lt;p&gt;文章可以直接在&lt;code&gt;content/post&lt;/code&gt;目录下建立&lt;/p&gt;
 &lt;p&gt;当你修改文件后想要同步到github并自动部署可以输入以下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2144,11 +2151,11 @@
         
         <guid>https://mqdfei.top/p/%E8%83%8C%E7%82%B9%E6%96%87%E7%AB%A0%E8%80%8D%E8%80%8D%E5%B8%85/</guid>
         <description>&lt;img src="https://mqdfei.top/p/%E8%83%8C%E7%82%B9%E6%96%87%E7%AB%A0%E8%80%8D%E8%80%8D%E5%B8%85/image/liu.jpg" alt="Featured image of post 背点文章耍耍帅" /&gt;&lt;h1 id=&#34;累了就休息休息完继续&#34;&gt;累了就休息，休息完继续
-&lt;/h1&gt;&lt;center&gt;&lt;b&gt;五柳先生传&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;先生不知何许人也，亦不详其姓字，宅边有五柳树，因以为号焉。闲静少言，不慕荣利。好读书，不求甚解；每有会意，便欣然忘食。性嗜酒，家贫不能常得。亲旧知其如此，或置酒而招之；造饮辄尽，期在必醉。既醉而退，曾不吝情去留。环堵萧然，不蔽风日；短褐穿结，箪瓢屡空，晏如也。常著文章自娱，颇示己志。忘怀得失，以此自终。&lt;/p&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;五柳先生传&#34;&gt;五柳先生传
+&lt;/h2&gt;&lt;p&gt;先生不知何许人也，亦不详其姓字，宅边有五柳树，因以为号焉。闲静少言，不慕荣利。好读书，不求甚解；每有会意，便欣然忘食。性嗜酒，家贫不能常得。亲旧知其如此，或置酒而招之；造饮辄尽，期在必醉。既醉而退，曾不吝情去留。环堵萧然，不蔽风日；短褐穿结，箪瓢屡空，晏如也。常著文章自娱，颇示己志。忘怀得失，以此自终。&lt;/p&gt;
 &lt;p&gt;赞曰：黔娄之妻有言：“不戚戚于贫贱，不汲汲于富贵。”其言兹若人之俦乎？衔觞赋诗，以乐其志，无怀氏之民欤？葛天氏之民欤？&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;滕王阁序&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。&lt;/p&gt;
+&lt;h2 id=&#34;滕王阁序&#34;&gt;滕王阁序
+&lt;/h2&gt;&lt;p&gt;豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。&lt;/p&gt;
 &lt;p&gt;时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，即冈峦之体势。&lt;/p&gt;
 &lt;p&gt;披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰弥津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。&lt;/p&gt;
 &lt;p&gt;遥襟甫畅，逸兴遄飞。爽籁发而清风生，纤歌凝而白云遏。睢园绿竹，气凌彭泽之樽；邺水朱华，光照临川之笔。四美具，二难并。穷睇眄于中天，极娱游于暇日。天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会于云间。地势极而南溟深，天柱高而北辰远。关山难越，谁悲失路之人？萍水相逢，尽是他乡之客。怀帝阍而不见，奉宣室以何年？&lt;/p&gt;
@@ -2159,8 +2166,8 @@
 &lt;p&gt;画栋朝飞南浦云，珠帘暮卷西山雨。&lt;/p&gt;
 &lt;p&gt;闲云潭影日悠悠，物换星移几度秋。&lt;/p&gt;
 &lt;p&gt;阁中帝子今何在？槛外长江空自流。&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;洛神赋&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;黄初三年，余朝京师，还济洛川。古人有言，斯水之神，名曰宓妃。感宋玉对楚王神女之事，遂作斯赋。其辞曰：&lt;/p&gt;
+&lt;h2 id=&#34;洛神赋&#34;&gt;洛神赋
+&lt;/h2&gt;&lt;p&gt;黄初三年，余朝京师，还济洛川。古人有言，斯水之神，名曰宓妃。感宋玉对楚王神女之事，遂作斯赋。其辞曰：&lt;/p&gt;
 &lt;p&gt;余从京域，言归东藩。背伊阙，越轘辕，经通谷，陵景山。日既西倾，车殆马烦。尔乃税驾乎蘅皋，秣驷乎芝田，容与乎阳林，流眄乎洛川。于是精移神骇，忽焉思散。俯则未察，仰以殊观，睹一丽人，于岩之畔。乃援御者而告之曰：“尔有觌于彼者乎？彼何人斯？若此之艳也！”御者对曰：“臣闻河洛之神，名曰宓妃。然则君王之所见也，无乃是乎？其状若何？臣愿闻之。”&lt;/p&gt;
 &lt;p&gt;余告之曰：“其形也，翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。远而望之，皎若太阳升朝霞；迫而察之，灼若芙蕖出渌波。秾纤得衷，修短合度。肩若削成，腰如约素。延颈秀项，皓质呈露。芳泽无加，铅华弗御。云髻峨峨，修眉联娟。丹唇外朗，皓齿内鲜，明眸善睐，靥辅承权。瑰姿艳逸，仪静体闲。柔情绰态，媚于语言。奇服旷世，骨像应图。披罗衣之璀粲兮，珥瑶碧之华琚。戴金翠之首饰，缀明珠以耀躯。践远游之文履，曳雾绡之轻裾。微幽兰之芳蔼兮，步踟蹰于山隅。&lt;/p&gt;
 &lt;p&gt;于是忽焉纵体，以遨以嬉。左倚采旄，右荫桂旗。攘皓腕于神浒兮，采湍濑之玄芝。余情悦其淑美兮，心振荡而不怡。无良媒以接欢兮，托微波而通辞。愿诚素之先达兮，解玉佩以要之。嗟佳人之信修兮，羌习礼而明诗。抗琼珶以和予兮，指潜渊而为期。执眷眷之款实兮，惧斯灵之我欺。感交甫之弃言兮，怅犹豫而狐疑。收和颜而静志兮，申礼防以自持。&lt;/p&gt;
@@ -2169,20 +2176,20 @@
 &lt;p&gt;于是屏翳收风，川后静波。冯夷鸣鼓，女娲清歌。腾文鱼以警乘，鸣玉鸾以偕逝。六龙俨其齐首，载云车之容裔，鲸鲵踊而夹毂，水禽翔而为卫。&lt;/p&gt;
 &lt;p&gt;于是越北沚。过南冈，纡素领，回清阳，动朱唇以徐言，陈交接之大纲。恨人神之道殊兮，怨盛年之莫当。抗罗袂以掩涕兮，泪流襟之浪浪。悼良会之永绝兮，哀一逝而异乡。无微情以效爱兮，献江南之明珰。虽潜处于太阴，长寄心于君王。忽不悟其所舍，怅神宵而蔽光。&lt;/p&gt;
 &lt;p&gt;于是背下陵高，足往神留，遗情想像，顾望怀愁。冀灵体之复形，御轻舟而上溯。浮长川而忘返，思绵绵而增慕。夜耿耿而不寐，沾繁霜而至曙。命仆夫而就驾，吾将归乎东路。揽騑辔以抗策，怅盘桓而不能去。&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;阿房宫赋&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;六王毕，四海一；蜀山兀，阿房出。覆压三百余里，隔离天日。骊山北构而西折，直走咸阳。二川溶溶，流入宫墙。五步一楼，十步一阁；廊腰缦回，檐牙高啄；各抱地势，钩心斗角。盘盘焉，囷囷焉，蜂房水涡，矗不知其几千万落！长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，不知西东。歌台暖响，春光融融；舞殿冷袖，风雨凄凄。一日之内，一宫之间，而气候不齐。&lt;/p&gt;
+&lt;h2 id=&#34;阿房宫赋&#34;&gt;阿房宫赋
+&lt;/h2&gt;&lt;p&gt;六王毕，四海一；蜀山兀，阿房出。覆压三百余里，隔离天日。骊山北构而西折，直走咸阳。二川溶溶，流入宫墙。五步一楼，十步一阁；廊腰缦回，檐牙高啄；各抱地势，钩心斗角。盘盘焉，囷囷焉，蜂房水涡，矗不知其几千万落！长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，不知西东。歌台暖响，春光融融；舞殿冷袖，风雨凄凄。一日之内，一宫之间，而气候不齐。&lt;/p&gt;
 &lt;p&gt;妃嫔媵嫱，王子皇孙，辞楼下殿，辇来于秦，朝歌夜弦，为秦宫人。明星荧荧，开妆镜也；绿云扰扰，梳晓鬟也；渭流涨腻，弃脂水也；烟斜雾横，焚椒兰也。雷霆乍惊，宫车过也；辘辘远听，杳不知其所之也。一肌一容，尽态极妍，缦立远视，而望幸焉；有不见者，三十六年。燕、赵之收藏，韩、魏之经营，齐、楚之精英，几世几年，剽掠其人，倚叠如山。一旦不能有，输来其间。鼎铛玉石，金块珠砾，弃掷逦迤，秦人视之，亦不甚惜。&lt;/p&gt;
 &lt;p&gt;嗟乎！一人之心，千万人之心也。秦爱纷奢，人亦念其家；奈何取之尽锱铢，用之如泥沙？使负栋之柱，多于南亩之农夫；架梁之椽，多于机上之工女；钉头磷磷，多于在庾之粟粒；瓦缝参差，多于周身之帛缕；直栏横槛，多于九土之城郭；管弦呕哑，多于市人之言语。使天下之人，不敢言而敢怒；独夫之心，日益骄固。戍卒叫，函谷举；楚人一炬，可怜焦土。&lt;/p&gt;
 &lt;p&gt;呜呼！灭六国者，六国也，非秦也。族秦者，秦也，非天下也。嗟乎！使六国各爱其人，则足以拒秦；使秦复爱六国之人，则递三世可至万世而为君，谁得而族灭也？秦人不暇自哀，而后人哀之；后人哀之而不鉴之，亦使后人而复哀后人也。&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;岳阳楼记&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;庆历四年春，滕子京谪守巴陵郡。越明年，政通人和，百废具兴，乃重修岳阳楼，增其旧制，刻唐贤今人诗赋于其上，属予作文以记之。&lt;/p&gt;
+&lt;h2 id=&#34;岳阳楼记&#34;&gt;岳阳楼记
+&lt;/h2&gt;&lt;p&gt;庆历四年春，滕子京谪守巴陵郡。越明年，政通人和，百废具兴，乃重修岳阳楼，增其旧制，刻唐贤今人诗赋于其上，属予作文以记之。&lt;/p&gt;
 &lt;p&gt;予观夫巴陵胜状，在洞庭一湖。衔远山，吞长江，浩浩汤汤，横无际涯，朝晖夕阴，气象万千，此则岳阳楼之大观也，前人之述备矣。然则北通巫峡，南极潇湘，迁客骚人，多会于此，览物之情，得无异乎？&lt;/p&gt;
 &lt;p&gt;若夫淫雨霏霏，连月不开，阴风怒号，浊浪排空，日星隐曜，山岳潜形，商旅不行，樯倾楫摧，薄暮冥冥，虎啸猿啼。登斯楼也，则有去国怀乡，忧谗畏讥，满目萧然，感极而悲者矣。&lt;/p&gt;
 &lt;p&gt;至若春和景明，波澜不惊，上下天光，一碧万顷，沙鸥翔集，锦鳞游泳，岸芷汀兰，郁郁青青。而或长烟一空，皓月千里，浮光跃金，静影沉璧，渔歌互答，此乐何极！登斯楼也，则有心旷神怡，宠辱偕忘，把酒临风，其喜洋洋者矣。&lt;/p&gt;
 &lt;p&gt;嗟夫！予尝求古仁人之心，或异二者之为，何哉？不以物喜，不以己悲，居庙堂之高则忧其民，处江湖之远则忧其君。是进亦忧，退亦忧。然则何时而乐耶？其必曰“先天下之忧而忧，后天下之乐而乐”乎！噫！微斯人，吾谁与归？&lt;/p&gt;
 &lt;p&gt;时六年九月十五日。&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;孔雀东南飞&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;序曰：汉末建安中，庐江府小吏焦仲卿妻刘氏，为仲卿母所遣，自誓不嫁。其家逼之，乃投水而死。仲卿闻之，亦自缢于庭树。时人伤之，为诗云尔。&lt;/p&gt;
+&lt;h2 id=&#34;孔雀东南飞&#34;&gt;孔雀东南飞
+&lt;/h2&gt;&lt;p&gt;序曰：汉末建安中，庐江府小吏焦仲卿妻刘氏，为仲卿母所遣，自誓不嫁。其家逼之，乃投水而死。仲卿闻之，亦自缢于庭树。时人伤之，为诗云尔。&lt;/p&gt;
 &lt;p&gt;孔雀东南飞，五里一徘徊。&lt;/p&gt;
 &lt;p&gt;“十三能织素，十四学裁衣，十五弹箜篌，十六诵诗书。十七为君妇，心中常苦悲。君既为府吏，守节情不移，贱妾留空房，相见常日稀。鸡鸣入机织，夜夜不得息。三日断五匹，大人故嫌迟。非为织作迟，君家妇难为！妾不堪驱使，徒留无所施，便可白公姥，及时相遣归。”&lt;/p&gt;
 &lt;p&gt;府吏得闻之，堂上启阿母：“儿已薄禄相，幸复得此妇，结发同枕席，黄泉共为友。共事二三年，始尔未为久,女行无偏斜，何意致不厚？”&lt;/p&gt;
