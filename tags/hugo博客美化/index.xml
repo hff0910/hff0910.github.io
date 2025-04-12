@@ -1405,16 +1405,16 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;敲出命令&lt;code&gt;hugo new site xxx&lt;/code&gt;创建hugo文件&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.png&#34;
-	width=&#34;1464&#34;
-	height=&#34;326&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2_hu_9ff411231002c368.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2_hu_b0f19c6ca84382f8.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1.png&#34;
+	width=&#34;1001&#34;
+	height=&#34;259&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1_hu_c5387aa0cb52ab08.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1_hu_a7265dc7bad33cd7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;449&#34;
-		data-flex-basis=&#34;1077px&#34;
+		data-flex-grow=&#34;386&#34;
+		data-flex-basis=&#34;927px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1486,16 +1486,16 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;将&lt;code&gt;exampleSite&lt;/code&gt;样例数据中的 &lt;strong&gt;Content&lt;/strong&gt; 和 &lt;strong&gt;hugo.yaml&lt;/strong&gt; 复制到主文件夹中，并删掉主文件夹下的&lt;code&gt;hugo.toml&lt;/code&gt;和&lt;code&gt;content/post/rich-content&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.png&#34;
-	width=&#34;832&#34;
-	height=&#34;458&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3_hu_8b1c460d67777ae.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3_hu_324ce0f93d2792a0.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1.png&#34;
+	width=&#34;825&#34;
+	height=&#34;529&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1_hu_ff22ce5f95e296b4.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1_hu_39552b04188a479a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;181&#34;
-		data-flex-basis=&#34;435px&#34;
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;374px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1.png&#34;
@@ -1509,16 +1509,12 @@
 		data-flex-grow=&#34;155&#34;
 		data-flex-basis=&#34;374px&#34;
 	
-&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2.png&#34;
-	width=&#34;772&#34;
-	height=&#34;396&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2_hu_15bd9106e2948f6a.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2_hu_90fafb50caa70848.png 1024w&#34;
+&gt;&lt;img src=&#34;https://mqdfei.top/image/theme3.2.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;194&#34;
-		data-flex-basis=&#34;467px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1551,16 +1547,12 @@
 		data-flex-basis=&#34;618px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2.png&#34;
-	width=&#34;1908&#34;
-	height=&#34;988&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2_hu_7820ccfb2ec15477.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2_hu_5fda75edb8a16a69.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image/theme5.2.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;193&#34;
-		data-flex-basis=&#34;463px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1690,16 +1682,12 @@
 		data-flex-basis=&#34;648px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2.png&#34;
-	width=&#34;1024&#34;
-	height=&#34;597&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2_hu_b236c587583cb4df.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2_hu_6688da715cd8559e.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image/githuba4.2.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;171&#34;
-		data-flex-basis=&#34;411px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
