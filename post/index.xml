@@ -7,7 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei 禁止转载，如需引用，请注明文章链接</copyright>
-        <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【网站】图书网站</title>
+        <link>https://mqdfei.top/p/%E7%BD%91%E7%AB%99%E5%9B%BE%E4%B9%A6%E7%BD%91%E7%AB%99/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mqdfei.top/p/%E7%BD%91%E7%AB%99%E5%9B%BE%E4%B9%A6%E7%BD%91%E7%AB%99/</guid>
+        <description>&lt;img src="https://mqdfei.top/p/%E7%BD%91%E7%AB%99%E5%9B%BE%E4%B9%A6%E7%BD%91%E7%AB%99/image/fengmian.jpg" alt="Featured image of post 【网站】图书网站" /&gt;&lt;h2 id=&#34;图书网站&#34;&gt;图书网站
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>【网站】网站推荐</title>
         <link>https://mqdfei.top/p/%E7%BD%91%E7%AB%99%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
@@ -24,7 +33,7 @@
 &lt;li&gt;资源避难所&lt;a class=&#34;link&#34; href=&#34;http://flysheep.ysepan.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击这里&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;资源更新比较快&lt;/p&gt;
+&lt;p&gt;资源更新比较快，不过要飞猫盘有点恶心。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Koyso&lt;a class=&#34;link&#34; href=&#34;https://koyso.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击这里&lt;/a&gt;&lt;/li&gt;
@@ -68,7 +77,15 @@
     &gt;点击这里&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;国家免费资源，冲&lt;/p&gt;
-&lt;h2 id=&#34;5打发无聊时间&#34;&gt;5.打发无聊时间
+&lt;h2 id=&#34;5看书软件&#34;&gt;5.看书软件
+&lt;/h2&gt;&lt;p&gt;微信读书就当做找书的软件吧，找到了电脑上看。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电脑阅读器&lt;a class=&#34;link&#34; href=&#34;https://www.koodoreader.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Koodo Reader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;电子书资源&lt;a class=&#34;link&#34; href=&#34;https://zh.z-lib.by/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;z-lib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6打发无聊时间&#34;&gt;6.打发无聊时间
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;时光邮局&lt;a class=&#34;link&#34; href=&#34;https://www.hi2future.com/Mail/showlist2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击这里&lt;/a&gt;&lt;/li&gt;
@@ -1781,16 +1798,16 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;敲出命令&lt;code&gt;hugo new site xxx&lt;/code&gt;创建hugo文件&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1.png&#34;
-	width=&#34;1001&#34;
-	height=&#34;259&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1_hu_c5387aa0cb52ab08.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.1_hu_a7265dc7bad33cd7.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2.png&#34;
+	width=&#34;1464&#34;
+	height=&#34;326&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2_hu_9ff411231002c368.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/MyBlog2_hu_b0f19c6ca84382f8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;386&#34;
-		data-flex-basis=&#34;927px&#34;
+		data-flex-grow=&#34;449&#34;
+		data-flex-basis=&#34;1077px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1862,16 +1879,16 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;将&lt;code&gt;exampleSite&lt;/code&gt;样例数据中的 &lt;strong&gt;Content&lt;/strong&gt; 和 &lt;strong&gt;hugo.yaml&lt;/strong&gt; 复制到主文件夹中，并删掉主文件夹下的&lt;code&gt;hugo.toml&lt;/code&gt;和&lt;code&gt;content/post/rich-content&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1.png&#34;
-	width=&#34;825&#34;
-	height=&#34;529&#34;
-	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1_hu_ff22ce5f95e296b4.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1_hu_39552b04188a479a.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.png&#34;
+	width=&#34;832&#34;
+	height=&#34;458&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3_hu_8b1c460d67777ae.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3_hu_324ce0f93d2792a0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;155&#34;
-		data-flex-basis=&#34;374px&#34;
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.1.png&#34;
@@ -1885,12 +1902,16 @@
 		data-flex-grow=&#34;155&#34;
 		data-flex-basis=&#34;374px&#34;
 	
-&gt;&lt;img src=&#34;https://mqdfei.top/image/theme3.2.png&#34;
-	
-	
-	
+&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2.png&#34;
+	width=&#34;772&#34;
+	height=&#34;396&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2_hu_15bd9106e2948f6a.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme3.2_hu_90fafb50caa70848.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;467px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1923,12 +1944,16 @@
 		data-flex-basis=&#34;618px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image/theme5.2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2.png&#34;
+	width=&#34;1908&#34;
+	height=&#34;988&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2_hu_7820ccfb2ec15477.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/theme5.2_hu_5fda75edb8a16a69.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;463px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2058,12 +2083,16 @@
 		data-flex-basis=&#34;648px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/image/githuba4.2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;597&#34;
+	srcset=&#34;https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2_hu_b236c587583cb4df.png 480w, https://mqdfei.top/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/image/githuba4.2_hu_6688da715cd8559e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
