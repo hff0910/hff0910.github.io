@@ -8,7 +8,7 @@
         <language>zh-cn</language>
         <copyright>林梦飞-mqdfei 禁止转载，如需引用，请注明文章链接</copyright>
         <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mqdfei.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>归档</title>
+        <title>归档|Archive</title>
         <link>https://mqdfei.top/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
@@ -16,7 +16,7 @@
         <description></description>
         </item>
         <item>
-        <title>单词练习</title>
+        <title>单词练习|Word Practice</title>
         <link>https://mqdfei.top/word-practice/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -24,11 +24,11 @@
         <description></description>
         </item>
         <item>
-        <title>更新计划</title>
-        <link>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</link>
+        <title>更新计划|Update Plan</title>
+        <link>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92update-plan/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
+        <guid>https://mqdfei.top/%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92update-plan/</guid>
         <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -119,25 +119,25 @@
 </description>
         </item>
         <item>
-        <title>技术链接</title>
-        <link>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
+        <title>技术链接|Technical Links</title>
+        <link>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5technical-links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://mqdfei.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5technical-links/</guid>
         <description>&lt;p&gt;这是我的技术链接。当做网络收藏夹用，以便随时找到需要的网址，脱离浏览器书签的限制&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>每日必看</title>
-        <link>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8B/</link>
+        <title>每日必看|DailySee</title>
+        <link>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8Bdailysee/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8B/</guid>
+        <guid>https://mqdfei.top/%E6%AF%8F%E6%97%A5%E5%BF%85%E7%9C%8Bdailysee/</guid>
         <description>&lt;p&gt;每日学习及资讯网站&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>搜索</title>
+        <title>搜索|Search</title>
         <link>https://mqdfei.top/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -145,12 +145,12 @@
         <description></description>
         </item>
         <item>
-        <title>友链</title>
-        <link>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</link>
+        <title>友链|Friendship Links</title>
+        <link>https://mqdfei.top/%E5%8F%8B%E9%93%BEfriendship-links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mqdfei.top/%E5%8F%8B%E9%93%BE/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;这是我的好友链接。现在的数量为：4&lt;/strong&gt;&lt;/p&gt;
+        <guid>https://mqdfei.top/%E5%8F%8B%E9%93%BEfriendship-links/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;这是我的好友链接。现在的数量为：11&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;第一次做Blog，没去联系这几位Blog主人（太懒了）。所以只能算是单向好友，如果有什么侵权的地方可以联系改正。&lt;/p&gt;
 </description>
         </item>
