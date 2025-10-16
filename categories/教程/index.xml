@@ -178,6 +178,13 @@
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://steampp.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;瓦特工具箱(Steam++官网) - Watt Toolkit&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我一般用来上github和steam&lt;/p&gt;
+&lt;h3 id=&#34;openspeedy网盘加速&#34;&gt;openspeedy（网盘加速）
+&lt;/h3&gt;&lt;p&gt;实测bdy有用，不知道能用多久。目前没发现什么副作用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/game1024/OpenSpeedy/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Releases · game1024/OpenSpeedy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好像是一个游戏加速软件，被人开发出网盘加速功能。&lt;/p&gt;
+&lt;p&gt;软件打开后选中自己用的网盘进程，开50倍以内的加速。&lt;/p&gt;
+&lt;p&gt;以bdy为例，下载状态显示个位数的kb/s，但是看已下载大小会发现有几M的速度。&lt;/p&gt;
 &lt;h2 id=&#34;2浏览器插件&#34;&gt;2.浏览器插件
 &lt;/h2&gt;&lt;p&gt;edge浏览器都可以在&lt;a class=&#34;link&#34; href=&#34;https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Microsoft Edge 加载项&lt;/a&gt;内获取。现在转用微软浏览器了，插件、内置语音朗读、便捷登录同步书签比geogle也不差了。&lt;/p&gt;
